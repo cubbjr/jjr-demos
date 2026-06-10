@@ -1,0 +1,610 @@
+/*=============================================================
+  04. General
+===============================================================*/
+
+/*=====================================  
+  Classess for Fonts Size  
+=======================================*/
+
+.cs_fs_14 {
+  font-size: 14px;
+  line-height: 1.86em;
+}
+
+.cs_fs_16 {
+  font-size: 16px;
+  line-height: 1.63em;
+}
+
+.cs_fs_18 {
+  font-size: 18px;
+  line-height: 1.67em;
+
+  @media (max-width: 575px) {
+    font-size: 16px;
+  }
+}
+
+.cs_fs_20 {
+  font-size: 20px;
+  line-height: 1.3em;
+
+  @media (max-width: 575px) {
+    font-size: 18px;
+  }
+}
+
+.cs_fs_24 {
+  font-size: 24px;
+  line-height: 1.25em;
+
+  @media (max-width: 575px) {
+    font-size: 22px;
+  }
+}
+
+.cs_fs_32 {
+  font-size: 32px;
+  line-height: 1.313em;
+
+  @media (max-width: 575px) {
+    font-size: 24px;
+  }
+}
+
+.cs_fs_36 {
+  font-size: 36px;
+  line-height: 1.28em;
+
+  @media (max-width: 575px) {
+    font-size: 24px;
+  }
+}
+
+.cs_fs_46 {
+  font-size: 46px;
+  line-height: 1.28em;
+
+  @media (max-width: 1199px) {
+    font-size: 42px;
+  }
+
+  @media (max-width: 575px) {
+    font-size: 28px;
+  }
+}
+
+.cs_fs_56 {
+  font-size: 56px;
+  line-height: 1.25em;
+
+  @media (max-width: 991px) {
+    font-size: 46px;
+  }
+
+  @media (max-width: 575px) {
+    font-size: 28px;
+  }
+}
+
+.cs_fs_72 {
+  font-size: 72px;
+  line-height: 1.25em;
+
+  @media (max-width: 1199px) {
+    font-size: 64px;
+  }
+
+  @media (max-width: 991px) {
+    font-size: 56px;
+  }
+
+  @media (max-width: 575px) {
+    font-size: 30px;
+  }
+}
+
+/*=====================================  
+  Classess for Fonts Weight
+=======================================*/
+.cs_light {
+  font-weight: 300;
+}
+
+.cs_normal {
+  font-weight: 400;
+}
+
+.cs_medium {
+  font-weight: 500;
+}
+
+.cs_semibold {
+  font-weight: 600;
+}
+
+.cs_bold {
+  font-weight: 700;
+}
+
+.cs_extrabold {
+  font-weight: 800;
+}
+
+.cs_black {
+  font-weight: 900;
+}
+
+/*=====================================  
+  Classess for Fonts Color
+=======================================*/
+
+.cs_primary_color {
+  color: var(--primary-color);
+}
+
+.cs_accent_color {
+  color: var(--accent-color);
+}
+
+.cs_blue_dark {
+  color: var(--dark-blue);
+}
+
+.cs_blue_light {
+  color: var(--light-blue);
+}
+
+.cs_blue_lightest {
+  color: var(--lightest-blue);
+}
+
+.cs_secondary_color {
+  color: var(--secondary-color);
+}
+
+.cs_white_color {
+  color: var(--white-color);
+}
+
+.cs_gray_color1 {
+  color: var(--gray-color1);
+}
+
+.cs_gray_color2 {
+  color: var(--gray-color2);
+}
+
+.cs_gray_color3 {
+  color: var(--gray-color3);
+}
+
+.cs_black_color {
+  color: var(--black-color);
+}
+
+/*=====================================  
+  Classess for Fonts Family 
+=======================================*/
+.cs_primary_font {
+  font-family: var(--primary-font);
+}
+
+.cs_secondary_font {
+  font-family: var(--secondary-font);
+}
+
+/*=============================================  
+  Classess for Background Size & Colors
+===============================================*/
+.cs_accent_bg {
+  background-color: var(--accent-color);
+}
+
+.cs_blue_bg1 {
+  background-color: var(--dark-blue);
+}
+
+.cs_blue_bg2 {
+  background-color: var(--light-blue);
+}
+
+.cs_blue_bg3 {
+  background-color: var(--lightest-blue);
+}
+
+.cs_primary_bg {
+  background-color: var(--primary-color);
+}
+
+.cs_secondary_bg {
+  background-color: var(--secondary-color);
+}
+
+.cs_gray_bg1 {
+  background-color: var(--gray-color1);
+}
+
+.cs_gray_bg2 {
+  background-color: var(--gray-color2);
+}
+
+.cs_gray_bg3 {
+  background-color: var(--gray-color3);
+}
+
+.cs_white_bg {
+  background-color: var(--white-color);
+}
+
+.cs_black_bg {
+  background-color: var(--black-color);
+}
+
+.cs_bg_filed {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.cs_bg_fixed {
+  background-attachment: fixed;
+}
+
+/*=============================================  
+  Classess for Border Radius
+===============================================*/
+.cs_radius_5 {
+  border-radius: 5px;
+}
+
+.cs_radius_8 {
+  border-radius: 8px;
+}
+
+.cs_radius_10 {
+  border-radius: 10px;
+}
+
+.cs_radius_12 {
+  border-radius: 12px;
+}
+
+.cs_radius_16 {
+  border-radius: 16px;
+}
+
+.cs_radius_20 {
+  border-radius: 20px;
+}
+
+.cs_radius_32 {
+  border-radius: 32px;
+}
+
+.cs_radius_50 {
+  border-radius: 50px;
+}
+
+.cs_radius_100 {
+  border-radius: 50%;
+}
+
+/*=============================================  
+  Classess for Utility Components
+===============================================*/
+.cs_mp_0 {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cs_center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cs_center_column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/*=======================================================
+ All Buttons
+=========================================================*/
+.cs_btn_style_1 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 9px 20px;
+  font-weight: 600;
+  border: 0;
+  outline: 0;
+  font-family: var(--primary-font);
+  position: relative;
+  overflow: hidden;
+
+  &::before,
+  &::after {
+    content: "";
+    width: 50%;
+    height: 100%;
+    border-radius: 32px;
+    background-color: var(--primary-color);
+    position: absolute;
+    top: 0;
+    transition: transform 0.4s ease;
+  }
+
+  &::before {
+    left: 0;
+    border-radius: 32px 0 0 32px;
+    transform: scale(0, 1);
+    transform-origin: bottom left;
+  }
+
+  &::after {
+    right: 0;
+    border-radius: 0 32px 32px 0;
+    transform: scale(0, 1);
+    transform-origin: top right;
+  }
+
+  > * {
+    position: relative;
+    z-index: 1;
+  }
+
+  &:hover {
+    color: var(--accent-color);
+    background-color: transparent;
+
+    &::before,
+    &::after {
+      transform: scale(1, 1);
+    }
+  }
+}
+
+.cs_player_btn_style_1 {
+  span {
+    width: 70px;
+    height: 70px;
+    font-size: 24px;
+    border-radius: inherit;
+    position: relative;
+    z-index: 1;
+  }
+
+  &::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: inherit;
+    background-color: var(--white-color);
+    transform: translate(-50%, -50%) scale(0.9);
+    animation: pulseBorder 3s linear infinite;
+  }
+
+  &:hover {
+    &::before {
+      animation-play-state: paused;
+    }
+  }
+}
+
+.cs_scrollup {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 20px;
+  bottom: calc(100% + 120px);
+  font-size: 18px;
+  z-index: 99;
+  opacity: 0;
+  border-radius: 50%;
+  transform: scale(0);
+  color: var(--white-color);
+  background-color: var(--dark-blue);
+  border: 2px solid currentColor;
+  transition: all 0.5s ease;
+
+  &:hover {
+    color: var(--dark-blue);
+    background-color: var(--white-color);
+  }
+
+  &.active {
+    opacity: 1;
+    bottom: 30px;
+    transform: scale(1);
+  }
+}
+
+/*=======================================================
+ Section Heading
+=========================================================*/
+.cs_section_subtitle {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.86em;
+  color: var(--dark-blue);
+  text-transform: uppercase;
+  display: inline-flex;
+  padding: 6px 16px;
+  border-radius: 50px;
+  font-family: var(--primary-font);
+}
+
+.cs_section_heading_style_1 {
+  .cs_section_title {
+    letter-spacing: -1px;
+  }
+
+  @media (max-width: 991px) {
+    align-items: flex-start;
+    text-align: left !important;
+  }
+}
+
+.cs_section_heading_style_2 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px 30px;
+
+  .cs_section_heading_left {
+    width: 45%;
+  }
+
+  .cs_section_heading_right {
+    width: 40%;
+  }
+
+  .cs_section_title {
+    letter-spacing: -1px;
+  }
+
+  @media (max-width: 991px) {
+    flex-direction: column;
+
+    .cs_section_heading_left,
+    .cs_section_heading_right {
+      width: 100%;
+    }
+  }
+}
+
+.cs_zoom {
+  img {
+    transition: all 0.6s ease;
+  }
+
+  &:hover {
+    img {
+      transform: scale(1.03);
+    }
+  }
+}
+
+/*=============================================  
+  Bootstrap Classess 
+===============================================*/
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1264px;
+  }
+}
+
+@media (max-width: 991px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+.cs_gap_y_24 {
+  gap: 24px 0;
+}
+
+/*===========================================================  
+  Rating Component
+=============================================================*/
+.cs_rating,
+.cs_rating_percentage {
+  overflow: hidden;
+
+  &::before {
+    content: "\f005\f005\f005\f005\f005";
+    font-family: "Font Awesome 7 Free";
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+.cs_rating {
+  max-width: 170px;
+  height: 26px;
+  position: relative;
+  color: var(--accent-color);
+  font-size: 20px;
+  letter-spacing: 14px;
+
+  &::before {
+    font-weight: 400;
+  }
+}
+
+.cs_rating_percentage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+
+  &::before {
+    font-weight: 900;
+  }
+}
+
+/*===========================================================  
+  All Common Animations
+=============================================================*/
+@keyframes pulseBorder {
+  100% {
+    transform: translate(-50%, -50%) scale(1.7);
+    opacity: 0;
+  }
+}
+
+/*===========================================================  
+  Responsive For Common Component & Hide Elements
+=============================================================*/
+
+@media (max-width: 991px) {
+  br {
+    display: none;
+  }
+
+  .cs_service_section,
+  .cs_about_style_1,
+  .cs_how_work_section,
+  .cs_promotion_section,
+  .cs_faq_section,
+  .cs_blog_section,
+  .cs_team_section,
+  .cs_pricing_section,
+  .cs_contact_section {
+    padding: 0 18px;
+  }
+
+  .cs_why_choose_section,
+  .cs_testimonial_section,
+  .cs_benefit_section {
+    padding: 0 16px;
+  }
+}
+
+.cs_custom_content_wrapper {
+  width: min(100%, 1440px);
+  padding: 24px;
+  margin: 0 auto;
+
+  @media (max-width: 1199px) {
+    padding: 20px 12px;
+  }
+  @media (max-width: 991px) {
+    padding: 0px;
+  }
+}
+@media (max-width: 991px) {
+  .container {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+}

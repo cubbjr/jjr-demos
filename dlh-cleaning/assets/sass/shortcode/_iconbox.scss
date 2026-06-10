@@ -1,0 +1,109 @@
+/*==============================================================
+  16. Iconbox
+================================================================*/
+.cs_iconbox_style_1 {
+  .cs_iconbox_icon {
+    width: 52px;
+    height: 52px;
+
+    img {
+      transition: transform 1s cubic-bezier(0.25, 0, .25, 1.2);
+    }
+  }
+
+  &:hover {
+    .cs_iconbox_icon {
+
+      img {
+        transform: rotateY(360deg);
+      }
+    }
+  }
+}
+
+.cs_iconbox_style_2 {
+  display: flex;
+  gap: 24px;
+  padding: 24px 0 24px 32px;
+  position: relative;
+  cursor: pointer;
+
+  .cs_iconbox_icon {
+    width: 32px;
+    height: 32px;
+    color: var(--primary-color);
+    transition: all 0.5s ease;
+  }
+
+  .cs_iconbox_title {
+    transition: all 0.5s ease;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    transform: scale(0, 0);
+    background-color: var(--dark-blue);
+    transition: all 0.5s ease;
+  }
+
+  &.active {
+    &::before {
+      transform: scale(1, 1);
+    }
+
+    .cs_iconbox_icon {
+      color: var(--dark-blue);
+    }
+
+    .cs_iconbox_title {
+      color: var(--dark-blue);
+    }
+  }
+
+  @media (max-width:991px) {
+    gap: 20px;
+    padding: 16px 0 16px 24px;
+  }
+}
+
+.cs_icon_wrapper_style_1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+
+  @media (max-width:1199px) {
+    gap: 30px 20px;
+  }
+
+  @media (max-width:767px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.cs_iconbox_wrapper_style_2 {
+  width: min(100%, 570px);
+  position: relative;
+
+  &::before {
+    content: '';
+    width: 4px;
+    height: 100%;
+    background-color: var(--gray-color2);
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
+
+.cs_steps_thumbnails_wrapper {
+  padding-left: 65px;
+
+  @media (max-width:991px) {
+    padding-left: 0;
+  }
+}

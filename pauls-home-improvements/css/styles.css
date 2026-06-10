@@ -1,0 +1,83 @@
+:root {
+    --primary: #E8631A;
+    --primaryLight: #f07840;
+    --primaryDark: #c45010;
+    --secondary: #3D1A0A;
+    --secondaryLight: #5a2a10;
+    --headerColor: #3D1A0A;
+    --bodyTextColor: #4e4b66;
+    --bodyTextColorWhite: #fafbfc;
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Logo size override */
+#cs-navigation .cs-logo {
+    height: 4rem !important;
+    max-width: 26rem !important;
+}
+
+/* Poppins for nav and h1 */
+#cs-navigation,
+#cs-navigation .cs-logo,
+#cs-navigation .cs-li-link,
+#cs-navigation .cs-phone,
+h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Capitalise nav and h1 */
+#cs-navigation .cs-li-link,
+#cs-navigation .cs-phone,
+h1 {
+    text-transform: uppercase;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 0.25rem;
+    display: block;
+}
+
+.cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: #ffffff;
+    position: relative;
+}
+
+.cs-title span {
+    color: var(--primaryLight);
+}
+
+.cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: rgba(255,255,255,0.85);
+}

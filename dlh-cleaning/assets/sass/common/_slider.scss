@@ -1,0 +1,115 @@
+/*===============================================================
+  09. Slider
+=================================================================*/
+.cs_slider {
+  position: relative;
+}
+
+.slick-arrow {
+  cursor: pointer;
+}
+
+.draggable {
+  cursor: url(../img/drag.png) 16 9, ew-resize !important;
+}
+
+.slick-slide>div {
+  display: flex;
+  flex-direction: column;
+}
+
+.slick-active {
+  .cs_testimonial_style_2 {
+
+    .cs_avatar_style_1 {
+      transform: translateY(0);
+      opacity: 1;
+    }
+
+  }
+}
+
+.cs_slider_gap_24 {
+  .slick-slide {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .slick-list {
+    margin-left: -12px;
+    margin-right: -12px;
+  }
+}
+
+/*=================================================
+ Slider Arrows and Pagination
+===================================================*/
+.cs_slider_arrows.cs_style_1 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 16px;
+
+  .cs_left_arrow,
+  .cs_right_arrow {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    padding: 10px;
+    background: var(--white-color);
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover {
+      color: var(--white-color);
+      background-color: var(--dark-blue);
+    }
+  }
+
+
+  @media (max-width: 991px) {
+    position: initial;
+    transform: initial;
+    margin-top: 24px;
+    justify-content: space-between;
+  }
+}
+
+.cs_pagination.cs_style_1 {
+
+  border-radius: 20px;
+  margin: 0 auto;
+
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    background-color: var(--gray-color1);
+    border-radius: 30px;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    height: 12px;
+    width: 50px;
+    opacity: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: var(--dark-blue);
+    position: relative;
+    transition: all 0.3s ease;
+
+    button {
+      display: none;
+    }
+
+    &.slick-active {
+      opacity: 1;
+    }
+  }
+}

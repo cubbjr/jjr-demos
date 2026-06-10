@@ -1,0 +1,149 @@
+/*==============================================================
+ 06. All Footer
+================================================================*/
+.cs_footer_style_1 {
+  padding: 50px 0;
+
+  a:hover {
+    color: var(--dark-blue);
+  }
+
+  .cs_footer_main {
+    padding: 50px 0;
+
+    .cs_footer_menu {
+      display: flex;
+      align-items: center;
+      gap: 15px 24px;
+      flex-wrap: wrap;
+    }
+  }
+
+  .cs_footer_bottom {
+    padding-top: 32px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+
+    .cs_bottom_content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px 20px;
+      flex-wrap: wrap;
+    }
+
+    .cs_footer_bottom_menu {
+      display: flex;
+      gap: 16px;
+    }
+  }
+
+  .cs_social_btns_style_1 {
+    display: flex;
+    gap: 24px;
+
+    a {
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      color: var(--gray-color2);
+      border: 1px solid var(--gray-color2);
+
+      &:hover {
+        border-color: var(--dark-blue);
+        background-color: var(--dark-blue);
+      }
+    }
+  }
+
+  .cs_vector_shape1 {
+    left: 0;
+    top: 90px;
+  }
+
+  .cs_vector_shape2 {
+    right: 0;
+    top: 90px;
+  }
+
+  @media (max-width: 991px) {
+    padding: 20px 16px;
+
+    .cs_footer_main {
+      padding: 24px 0;
+
+      .cs_footer_menu {
+        gap: 16px;
+      }
+    }
+
+    .cs_footer_bottom {
+      padding-top: 24px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .cs_bottom_content {
+      flex-direction: column;
+      justify-content: center;
+
+      .cs_copyright_text {
+        order: 3;
+      }
+    }
+  }
+}
+
+.cs_newsletter_style_1 {
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+
+  .cs_newsletter_text {
+    flex: 1;
+  }
+
+  .cs_newsletter_form {
+    width: min(45%, 350px);
+
+    input {
+      display: block;
+      width: 100%;
+      padding: 10px 20px;
+      border-radius: 32px;
+      border: 0;
+      outline: 0;
+      font-size: 14px;
+    }
+
+    button {
+      display: block;
+      position: absolute;
+      top: 50%;
+      right: 20px;
+      border: 0;
+      outline: 0;
+      font-weight: 600;
+      color: var(--dark-blue);
+      transform: translateY(-50%);
+      background-color: transparent;
+
+      &:hover {
+        color: var(--primary-color);
+      }
+    }
+  }
+
+  @media (max-width: 767px) {
+    padding: 24px 12px;
+    flex-direction: column;
+
+    .cs_newsletter_form {
+      width: 100%;
+    }
+  }
+}

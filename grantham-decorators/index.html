@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grantham Decorators | Painting &amp; Decorating in Grantham &amp; South Lincolnshire</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Outfit:wght@400;700;900&family=Sora:wght@400;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/quotebar.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/services.css">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <link rel="stylesheet" href="css/sidebyside.css">
+    <link rel="stylesheet" href="css/servicescards.css">
+    <link rel="stylesheet" href="css/beforeafter.css">
+    <link rel="stylesheet" href="css/ctabanner.css">
+    <link rel="stylesheet" href="css/howitworks.css">
+    <link rel="stylesheet" href="css/servicearea.css">
+    <link rel="stylesheet" href="css/faq.css">
+    <link rel="stylesheet" href="css/reviews.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+
+<!-- ============================================ -->
+<!--                 Navigation                   -->
+<!-- ============================================ -->
+
+<!-- ============================================ -->
+<!--                  Quote Bar                   -->
+<!-- ============================================ -->
+
+<div id="quote-bar">
+    <div class="qb-container">
+        <div class="qb-label">
+            <span class="qb-label-title">Get A Free Quote</span>
+            <span class="qb-label-sub">It Takes Only 30 Seconds</span>
+        </div>
+        <form class="qb-form" action="#contact" onsubmit="return false;">
+            <input class="qb-input" type="text" placeholder="First Name" aria-label="First Name">
+            <input class="qb-input" type="email" placeholder="Email" aria-label="Email">
+            <input class="qb-input" type="tel" placeholder="Phone" aria-label="Phone">
+            <select class="qb-select" aria-label="Choose a service">
+                <option value="" disabled selected>Choose A Service</option>
+                <option>Interior Painting</option>
+                <option>Exterior Painting</option>
+                <option>Wallpapering</option>
+                <option>Plaster Prep &amp; Repair</option>
+                <option>Woodwork &amp; Trim</option>
+                <option>Commercial Decorating</option>
+            </select>
+            <button class="qb-btn" type="submit">Get A Free Quote</button>
+        </form>
+    </div>
+</div>
+
+<header id="cs-navigation">
+    <div class="cs-container">
+        <a href="/" class="cs-logo" aria-label="Grantham Decorators Home">
+            <img src="images/GranthamDecoratorsWhiteLogo.png" alt="Grantham Decorators" width="340" height="65" decoding="async">
+        </a>
+
+        <nav class="cs-nav" aria-label="main navigation">
+            <button class="cs-toggle" aria-label="mobile menu toggle" aria-expanded="false" aria-controls="cs-ul-wrapper" aria-haspopup="menu">
+                <span class="cs-box" aria-hidden="true">
+                    <span class="cs-line cs-line1"></span>
+                    <span class="cs-line cs-line2"></span>
+                    <span class="cs-line cs-line3"></span>
+                </span>
+            </button>
+            <div class="cs-ul-wrapper" id="cs-ul-wrapper">
+                <ul class="cs-ul">
+                    <li class="cs-li"><a href="/" class="cs-li-link cs-active">Home</a></li>
+                    <li class="cs-li"><a href="#about" class="cs-li-link">About</a></li>
+                    <li class="cs-li"><a href="#services" class="cs-li-link">Services</a></li>
+                    <li class="cs-li"><a href="#service-area" class="cs-li-link">Service Area</a></li>
+                    <li class="cs-li"><a href="#contact" class="cs-li-link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="cs-contact-group">
+            <a href="tel:01632960142" class="cs-phone">
+                <img class="cs-phone-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/phone-1a.svg" alt="" width="24" height="24" aria-hidden="true" decoding="async">
+                01632 960142
+            </a>
+        </div>
+    </div>
+</header>
+
+<!-- ============================================ -->
+<!--                    Hero                      -->
+<!-- ============================================ -->
+
+<section id="hero-wc">
+    <div class="cs-container">
+        <div class="cs-content">
+            <div class="cs-hero-stars">
+                <span class="cs-stars-icons">★★★★★</span>
+                <span class="cs-stars-text">50+ 5-Star Reviews on Google</span>
+            </div>
+            <h1 class="cs-title">The #1 Top-Rated <span>Decorators</span> In Lincolnshire</h1>
+            <p class="cs-text">
+                Professional painting &amp; decorating across Grantham and South Lincolnshire. Family-run since 2011 — fully insured, free quotes, and guaranteed to leave the place spotless.
+            </p>
+            <div class="cs-hero-actions">
+                <a href="#contact" class="cs-hero-button">
+                    <span class="cs-desktop-text">Get a Free Quote</span>
+                    <span class="cs-mobile-text">Get Pricing</span>
+                </a>
+                <a href="tel:01632960142" class="cs-hero-phone">
+                    <img class="cs-phone-icon cs-desktop-text" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/phone-1a.svg" alt="" width="20" height="20" aria-hidden="true" decoding="async">
+                    <span class="cs-desktop-text">01632 960142</span>
+                    <span class="cs-mobile-text">Call Now</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="cs-background" aria-hidden="true">
+        <img src="images/granthamhero.jpg" alt="Decorator at work">
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--                  Services                    -->
+<!-- ============================================ -->
+
+<section id="services-468">
+    <div class="cs-container">
+        <div class="cs-panel">
+            <ul class="cs-card-group">
+                <li class="cs-item">
+                    <img class="cs-icon" aria-hidden="true" src="images/icons/icon1.svg" loading="lazy" decoding="async" alt="icon" width="90" height="90">
+                    <h3 class="cs-h3">Interior Painting</h3>
+                </li>
+                <li class="cs-item">
+                    <img class="cs-icon" aria-hidden="true" src="images/icons/icon2.svg" loading="lazy" decoding="async" alt="icon" width="90" height="90">
+                    <h3 class="cs-h3">Exterior Painting</h3>
+                </li>
+                <li class="cs-item cs-active">
+                    <img class="cs-icon" aria-hidden="true" src="images/icons/icon3.svg" loading="lazy" decoding="async" alt="icon" width="90" height="90">
+                    <h3 class="cs-h3">Wallpapering</h3>
+                </li>
+                <li class="cs-item">
+                    <img class="cs-icon" aria-hidden="true" src="images/icons/icon4.svg" loading="lazy" decoding="async" alt="icon" width="90" height="90">
+                    <h3 class="cs-h3">Plaster Prep</h3>
+                </li>
+                <li class="cs-item">
+                    <img class="cs-icon" aria-hidden="true" src="images/icons/icon5.svg" loading="lazy" decoding="async" alt="icon" width="90" height="90">
+                    <h3 class="cs-h3">Commercial Work</h3>
+                </li>
+            </ul>
+            <div class="cs-scroll-dots" aria-hidden="true">
+                <span class="cs-dot cs-dot-active"></span>
+                <span class="cs-dot"></span>
+                <span class="cs-dot"></span>
+            </div>
+            <a href="#contact" class="cs-banner">
+                <span class="cs-banner-text">Our Painting &amp; Decorating Services</span>
+                <span class="cs-banner-arrow" aria-hidden="true">&rarr;</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--                Side By Side                  -->
+<!-- ============================================ -->
+
+<section id="sbs-2291" id="about">
+    <div class="cs-container">
+        <div class="cs-image-group">
+            <picture class="cs-picture">
+                <source media="(max-width: 600px)" srcset="images/granthamimage1.jpg">
+                <source media="(min-width: 601px)" srcset="images/granthamimage1.jpg">
+                <img loading="lazy" decoding="async" src="images/granthamimage1.jpg" alt="Grantham Decorators team at work" width="630" height="630">
+            </picture>
+        </div>
+        <div class="cs-content">
+            <span class="cs-topper">Family-Run Since 2011 · Grantham &amp; South Lincolnshire</span>
+            <h2 class="cs-title">Your Local Experts For a Finish You'll Be Proud Of</h2>
+            <p class="cs-text">
+                Grantham Decorators is a family-run painting and decorating firm serving Grantham and the surrounding South Lincolnshire villages. We take on everything from single rooms to full property repaints — for homeowners, landlords, and commercial clients alike. We turn up when we say we will, keep the place clean while we work, and leave it spotless.
+            </p>
+            <ul class="cs-ul">
+                <li class="cs-li">
+                    <i data-lucide="shield-check" class="cs-li-icon" aria-hidden="true"></i>
+                    Fully Insured
+                </li>
+                <li class="cs-li">
+                    <i data-lucide="tag" class="cs-li-icon" aria-hidden="true"></i>
+                    Free No-Obligation Quotes
+                </li>
+                <li class="cs-li">
+                    <i data-lucide="calendar-check" class="cs-li-icon" aria-hidden="true"></i>
+                    We Turn Up When We Say We Will
+                </li>
+                <li class="cs-li">
+                    <i data-lucide="award" class="cs-li-icon" aria-hidden="true"></i>
+                    10+ Years' Experience
+                </li>
+                <li class="cs-li">
+                    <i data-lucide="users" class="cs-li-icon" aria-hidden="true"></i>
+                    Local, Family-Run Business
+                </li>
+            </ul>
+            <a class="cs-button-solid" href="#contact">Get a Free Quote</a>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--               Services Cards                 -->
+<!-- ============================================ -->
+
+<section id="services-cards" id="services">
+    <div class="cs-container">
+        <h2 class="cs-title">Our Painting &amp; Decorating Services</h2>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <div class="cs-image-wrap">
+                    <img class="cs-img" src="images/granthamimage1.jpg" alt="Interior Painting" loading="lazy" decoding="async" width="400" height="260">
+                </div>
+                <div class="cs-content">
+                    <h3 class="cs-h3">Interior Painting</h3>
+                    <p class="cs-text">Walls, ceilings, woodwork and trim — in occupied or empty properties. We protect your floors and furniture and leave every room clean and ready to use.</p>
+                    <a href="#contact" class="cs-button">Get a Quote</a>
+                </div>
+            </li>
+            <li class="cs-item">
+                <div class="cs-image-wrap">
+                    <img class="cs-img" src="images/granthamimage2.jpg" alt="Exterior Painting" loading="lazy" decoding="async" width="400" height="260">
+                </div>
+                <div class="cs-content">
+                    <h3 class="cs-h3">Exterior Painting</h3>
+                    <p class="cs-text">Render, masonry, fascias, soffits and guttering finished with weather-resistant coatings built to last. Transform your kerb appeal and protect your property.</p>
+                    <a href="#contact" class="cs-button">Get a Quote</a>
+                </div>
+            </li>
+            <li class="cs-item">
+                <div class="cs-image-wrap">
+                    <img class="cs-img" src="images/granthamimage1.jpg" alt="Wallpapering" loading="lazy" decoding="async" width="400" height="260">
+                </div>
+                <div class="cs-content">
+                    <h3 class="cs-h3">Wallpapering</h3>
+                    <p class="cs-text">Hanging, feature walls, and full removal of old paper. We work with all paper types and ensure every seam is perfect before we leave.</p>
+                    <a href="#contact" class="cs-button">Get a Quote</a>
+                </div>
+            </li>
+            <li class="cs-item">
+                <div class="cs-image-wrap">
+                    <img class="cs-img" src="images/granthamimage2.jpg" alt="Commercial Decorating" loading="lazy" decoding="async" width="400" height="260">
+                </div>
+                <div class="cs-content">
+                    <h3 class="cs-h3">Commercial Decorating</h3>
+                    <p class="cs-text">Offices, shops, rental and HMO turnarounds for landlords and letting agents. Quick, tidy, and reliable — keeping your void periods as short as possible.</p>
+                    <a href="#contact" class="cs-button">Get a Quote</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--              Before & After                  -->
+<!-- ============================================ -->
+
+<section id="before-after">
+    <div class="cs-container">
+        <h2 class="cs-title">See The <span>Difference</span> We Make</h2>
+        <ul class="ba-grid">
+
+            <li class="ba-item">
+                <img class="ba-before" src="images/granthamafter1.jpg" alt="After decorating" draggable="false">
+                <img class="ba-after" src="images/granthambefore1.jpg" alt="Before decorating" draggable="false">
+                <span class="ba-label ba-label-before">Before</span>
+                <span class="ba-label ba-label-after">After</span>
+                <div class="ba-divider"></div>
+                <div class="ba-handle">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M15 18l-6-6 6-6"/></svg>
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9 18l6-6-6-6"/></svg>
+                </div>
+            </li>
+
+            <li class="ba-item">
+                <img class="ba-before" src="images/granthamafter2.jpg" alt="After decorating" draggable="false">
+                <img class="ba-after" src="images/granthambefore2.jpg" alt="Before decorating" draggable="false">
+                <span class="ba-label ba-label-before">Before</span>
+                <span class="ba-label ba-label-after">After</span>
+                <div class="ba-divider"></div>
+                <div class="ba-handle">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M15 18l-6-6 6-6"/></svg>
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9 18l6-6-6-6"/></svg>
+                </div>
+            </li>
+
+            <li class="ba-item">
+                <img class="ba-before" src="images/granthamafter3.jpg" alt="After decorating" draggable="false">
+                <img class="ba-after" src="images/granthambefore3.jpg" alt="Before decorating" draggable="false">
+                <span class="ba-label ba-label-before">Before</span>
+                <span class="ba-label ba-label-after">After</span>
+                <div class="ba-divider"></div>
+                <div class="ba-handle">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M15 18l-6-6 6-6"/></svg>
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9 18l6-6-6-6"/></svg>
+                </div>
+            </li>
+
+        </ul>
+        <a href="#contact" class="cs-btn">Get a Free Quote</a>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--              How It Works                    -->
+<!-- ============================================ -->
+
+<section id="how-it-works">
+    <div class="cs-container">
+        <h2 class="cs-title">Working With Us Is <span>Simple</span></h2>
+
+        <ul class="hiw-grid">
+
+            <li class="hiw-item">
+                <div class="hiw-icon-wrap">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/><rect x="9" y="3" width="6" height="4" rx="1"/><path d="M9 12h6M9 16h4"/></svg>
+                    <span class="hiw-number">1</span>
+                </div>
+                <div class="hiw-content">
+                    <h3 class="hiw-heading">Get a Free Quote</h3>
+                    <p class="hiw-text">Fill out our quick form or give us a call. We'll visit your property, assess the work and give you a clear, no-obligation written quote — no hidden extras.</p>
+                </div>
+            </li>
+
+            <li class="hiw-arrow" aria-hidden="true">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </li>
+
+            <li class="hiw-item">
+                <div class="hiw-icon-wrap">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/><path d="M9 16l2 2 4-4"/></svg>
+                    <span class="hiw-number">2</span>
+                </div>
+                <div class="hiw-content">
+                    <h3 class="hiw-heading">Book a Start Date</h3>
+                    <p class="hiw-text">Happy with the quote? We'll agree a start date that works for you. We turn up on time, keep disruption to a minimum and keep you updated throughout.</p>
+                </div>
+            </li>
+
+            <li class="hiw-arrow" aria-hidden="true">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </li>
+
+            <li class="hiw-item">
+                <div class="hiw-icon-wrap">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="M8 12l3 3 5-5"/></svg>
+                    <span class="hiw-number">3</span>
+                </div>
+                <div class="hiw-content">
+                    <h3 class="hiw-heading">Sit Back &amp; Enjoy</h3>
+                    <p class="hiw-text">We finish the job to a high standard, clean up after ourselves and leave your home looking better than ever. No mess, no stress — just a great result.</p>
+                </div>
+            </li>
+
+        </ul>
+
+        <a href="#contact" class="hiw-cta">Get a Free Quote</a>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--                   Reviews                    -->
+<!-- ============================================ -->
+
+<section id="reviews-section" id="reviews">
+    <div class="cs-container">
+        <h2 class="cs-title">What Our Customers Say</h2>
+
+        <div class="cs-carousel-wrap">
+            <div class="cs-carousel" id="cs-carousel">
+
+                <div class="cs-review-card">
+                    <p class="cs-review-text">"Brilliant job on our hallway and stairs. Clean, polite and finished a day early. Wouldn't hesitate to recommend."</p>
+                    <div class="cs-reviewer">
+                        <img class="cs-avatar" src="https://randomuser.me/api/portraits/women/32.jpg" alt="Sarah M." width="48" height="48" loading="lazy" decoding="async">
+                        <div class="cs-reviewer-info">
+                            <div class="cs-stars">
+                                <span class="cs-star">★</span><span class="cs-star">★</span><span class="cs-star">★</span><span class="cs-star">★</span><span class="cs-star">★</span>
+                            </div>
+                            <p class="cs-reviewer-service">Interior Painting</p>
+                            <p class="cs-reviewer-name">Sarah M., Grantham</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cs-review-card cs-active">
+                    <p class="cs-review-text">"Repainted the whole exterior of our house. Looks like new and the price was very fair. Great communication throughout."</p>
+                    <div class="cs-reviewer">
+                        <img class="cs-avatar" src="https://randomuser.me/api/portraits/men/44.jpg" alt="David T." width="48" height="48" loading="lazy" decoding="async">
+                        <div class="cs-reviewer-info">
+                            <div class="cs-stars">
+                                <span class="cs-star">★</span><span class="cs-star">★</span><span class="cs-star">★</span><span class="cs-star">★</span><span class="cs-star">★</span>
+                            </div>
+                            <p class="cs-reviewer-service">Exterior Painting</p>
+                            <p class="cs-reviewer-name">David T., Barrowby</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cs-review-card">
+                    <p class="cs-review-text">"Used them for our rental property between tenants. Quick, professional, great communication. Will definitely use again."</p>
+                    <div class="cs-reviewer">
+                        <img class="cs-avatar" src="https://randomuser.me/api/portraits/women/65.jpg" alt="Karen W." width="48" height="48" loading="lazy" decoding="async">
+                        <div class="cs-reviewer-info">
+                            <div class="cs-stars">
+                                <span class="cs-star">★</span><span class="cs-star">★</span><span class="cs-star">★</span><span class="cs-star">★</span><span class="cs-star">★</span>
+                            </div>
+                            <p class="cs-reviewer-service">Commercial Decorating</p>
+                            <p class="cs-reviewer-name">Karen W., Great Gonerby</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cs-review-card">
+                    <p class="cs-review-text">"Had a feature wall papered in our living room. Absolutely perfect — you'd never know where the seams are. Really happy with the result."</p>
+                    <div class="cs-reviewer">
+                        <img class="cs-avatar" src="https://randomuser.me/api/portraits/men/68.jpg" alt="Mark H." width="48" height="48" loading="lazy" decoding="async">
+                        <div class="cs-reviewer-info">
+                            <div class="cs-stars">
+                                <span class="cs-star">★</span><span class="cs-star">★</span><span class="cs-star">★</span><span class="cs-star">★</span><span class="cs-star">★</span>
+                            </div>
+                            <p class="cs-reviewer-service">Wallpapering</p>
+                            <p class="cs-reviewer-name">Mark H., Manthorpe</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cs-review-card">
+                    <p class="cs-review-text">"Refreshed all the woodwork and skirting throughout our house. Incredibly neat and tidy. The whole team were a pleasure to have in the house."</p>
+                    <div class="cs-reviewer">
+                        <img class="cs-avatar" src="https://randomuser.me/api/portraits/women/77.jpg" alt="Julie R." width="48" height="48" loading="lazy" decoding="async">
+                        <div class="cs-reviewer-info">
+                            <div class="cs-stars">
+                                <span class="cs-star">★</span><span class="cs-star">★</span><span class="cs-star">★</span><span class="cs-star">★</span><span class="cs-star">★</span>
+                            </div>
+                            <p class="cs-reviewer-service">Woodwork &amp; Trim</p>
+                            <p class="cs-reviewer-name">Julie R., Harlaxton</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="cs-controls">
+            <div class="cs-arrows">
+                <button class="cs-arrow" id="cs-prev" aria-label="Previous review">&#8249;</button>
+                <button class="cs-arrow" id="cs-next" aria-label="Next review">&#8250;</button>
+            </div>
+            <div class="cs-cta-buttons">
+                <a href="#" class="cs-btn-solid">See More Reviews</a>
+                <a href="#" class="cs-btn-outline">Leave Us A Review</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--                 CTA Banner                   -->
+<!-- ============================================ -->
+
+<section id="cta-banner">
+    <div class="cs-banner-wrap">
+        <div class="cs-container">
+            <span class="cs-topper">Free No-Obligation Quotes</span>
+            <h2 class="cs-title">We Guarantee 100% Satisfaction On Every Job</h2>
+            <a href="#contact" class="cs-button-solid">Get a Free Quote</a>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--              Service Area                    -->
+<!-- ============================================ -->
+
+<section id="service-area-section">
+    <div class="sa-wrapper">
+
+        <!-- Left: Map -->
+        <div class="sa-map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d38936.1!2d-0.6436!3d52.9113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4878170f0aef94c5%3A0x6df634e9e7e0d4b4!2sGrantham!5e0!3m2!1sen!2suk!4v1700000000000"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Grantham service area map">
+            </iframe>
+        </div>
+
+        <!-- Right: Content -->
+        <div class="sa-content">
+            <span class="sa-topper">Where We Work</span>
+            <h2 class="sa-title">Professional Decorating Across <span>South Lincolnshire</span></h2>
+            <p class="sa-text">Based in Grantham, we cover the town and all surrounding villages. Not sure if we cover your area? Just give us a call — we're happy to travel for the right job.</p>
+
+            <ul class="sa-towns">
+                <li class="sa-town">
+                    <i data-lucide="map-pin" class="sa-town-icon" aria-hidden="true"></i>
+                    Grantham
+                </li>
+                <li class="sa-town">
+                    <i data-lucide="map-pin" class="sa-town-icon" aria-hidden="true"></i>
+                    Barrowby
+                </li>
+                <li class="sa-town">
+                    <i data-lucide="map-pin" class="sa-town-icon" aria-hidden="true"></i>
+                    Great Gonerby
+                </li>
+                <li class="sa-town">
+                    <i data-lucide="map-pin" class="sa-town-icon" aria-hidden="true"></i>
+                    Manthorpe
+                </li>
+                <li class="sa-town">
+                    <i data-lucide="map-pin" class="sa-town-icon" aria-hidden="true"></i>
+                    Londonthorpe
+                </li>
+                <li class="sa-town">
+                    <i data-lucide="map-pin" class="sa-town-icon" aria-hidden="true"></i>
+                    Harlaxton
+                </li>
+                <li class="sa-town">
+                    <i data-lucide="map-pin" class="sa-town-icon" aria-hidden="true"></i>
+                    Bottesford
+                </li>
+                <li class="sa-town">
+                    <i data-lucide="map-pin" class="sa-town-icon" aria-hidden="true"></i>
+                    Skillington
+                </li>
+                <li class="sa-town">
+                    <i data-lucide="map-pin" class="sa-town-icon" aria-hidden="true"></i>
+                    Colsterworth
+                </li>
+            </ul>
+
+            <a href="#contact" class="sa-cta">Get a Free Quote</a>
+        </div>
+
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--                    FAQ                       -->
+<!-- ============================================ -->
+
+<section id="faq-section">
+    <div class="cs-container">
+        <h2 class="cs-title">Frequently Asked Questions</h2>
+        <ul class="cs-faq-group">
+            <li class="cs-faq-item">
+                <button class="cs-faq-button" aria-expanded="false">
+                    <i data-lucide="chevron-down" class="cs-faq-icon" aria-hidden="true"></i>
+                    <span class="cs-faq-question">What areas do you cover?</span>
+                </button>
+                <div class="cs-faq-answer">
+                    <p>We cover Grantham and the surrounding South Lincolnshire villages including Barrowby, Great Gonerby, Manthorpe, Londonthorpe, Harlaxton, Bottesford, and more. Not sure if we cover your area? Just give us a call and we'll let you know.</p>
+                </div>
+            </li>
+            <li class="cs-faq-item">
+                <button class="cs-faq-button" aria-expanded="false">
+                    <i data-lucide="chevron-down" class="cs-faq-icon" aria-hidden="true"></i>
+                    <span class="cs-faq-question">Are you fully insured?</span>
+                </button>
+                <div class="cs-faq-answer">
+                    <p>Yes — we carry full public liability insurance on every job. You can have complete peace of mind knowing your home or property is in safe hands throughout the work.</p>
+                </div>
+            </li>
+            <li class="cs-faq-item">
+                <button class="cs-faq-button" aria-expanded="false">
+                    <i data-lucide="chevron-down" class="cs-faq-icon" aria-hidden="true"></i>
+                    <span class="cs-faq-question">How much does it cost?</span>
+                </button>
+                <div class="cs-faq-answer">
+                    <p>Every job is different, so we provide free no-obligation quotes tailored to your property. We'll visit, assess the work needed, and give you a clear written price before anything starts — no hidden extras.</p>
+                </div>
+            </li>
+            <li class="cs-faq-item">
+                <button class="cs-faq-button" aria-expanded="false">
+                    <i data-lucide="chevron-down" class="cs-faq-icon" aria-hidden="true"></i>
+                    <span class="cs-faq-question">Do you supply the paint?</span>
+                </button>
+                <div class="cs-faq-answer">
+                    <p>We can supply all materials or work with paint you've already chosen — whichever you prefer. We use quality trade brands and are happy to advise on finishes and colours if needed.</p>
+                </div>
+            </li>
+            <li class="cs-faq-item">
+                <button class="cs-faq-button" aria-expanded="false">
+                    <i data-lucide="chevron-down" class="cs-faq-icon" aria-hidden="true"></i>
+                    <span class="cs-faq-question">How long will the work take?</span>
+                </button>
+                <div class="cs-faq-answer">
+                    <p>It depends on the size and scope of the job. A single room typically takes one to two days; a full house repaint may take a week or more. We'll give you a realistic timeframe when we quote, and we'll always keep you updated if anything changes.</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--                   Footer                     -->
+<!-- ============================================ -->
+
+<footer id="cs-footer-269">
+    <div class="cs-container">
+
+        <div class="cs-logo-group">
+            <a aria-label="go back to home" class="cs-logo" href="/">
+                <img class="cs-logo-img" aria-hidden="true" loading="lazy" decoding="async" src="images/GranthamDecoratorsWhiteLogo.png" alt="Grantham Decorators logo" width="200" height="auto">
+            </a>
+            <ul class="cs-contact-details">
+                <li>
+                    <i data-lucide="map-pin" class="cs-detail-icon" aria-hidden="true"></i>
+                    <span>Based in Grantham, Lincolnshire NG31</span>
+                </li>
+                <li>
+                    <i data-lucide="mail" class="cs-detail-icon" aria-hidden="true"></i>
+                    <a href="mailto:hello@granthamdecorators.co.uk">hello@granthamdecorators.co.uk</a>
+                </li>
+                <li>
+                    <i data-lucide="phone" class="cs-detail-icon" aria-hidden="true"></i>
+                    <a href="tel:01632960142">01632 960142</a>
+                </li>
+                <li>
+                    <i data-lucide="smartphone" class="cs-detail-icon" aria-hidden="true"></i>
+                    <a href="tel:07700900318">07700 900318</a>
+                </li>
+                <li>
+                    <i data-lucide="clock" class="cs-detail-icon" aria-hidden="true"></i>
+                    <span>Mon–Fri 8am–6pm · Sat 9am–1pm</span>
+                </li>
+                <li>
+                    <i data-lucide="shield" class="cs-detail-icon" aria-hidden="true"></i>
+                    <a href="#">Privacy Policy</a>
+                </li>
+            </ul>
+            <div class="cs-social-row">
+                <span class="cs-follow-label">Follow Us On:</span>
+                <div class="cs-social">
+                    <a class="cs-social-link" aria-label="Facebook" href="">
+                        <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Social/Facebook.svg" alt="facebook" width="6" height="11">
+                    </a>
+                    <a class="cs-social-link" aria-label="Instagram" href="">
+                        <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Social/instagram.svg" alt="instagram" width="11" height="11">
+                    </a>
+                </div>
+            </div>
+            <a href="#contact" class="cs-cta-button">Get a Free Quote</a>
+        </div>
+
+        <div class="cs-nav-group">
+            <span class="cs-header">Quicklinks</span>
+            <ul class="cs-nav">
+                <li class="cs-nav-li"><a class="cs-nav-link" href="/">Home</a></li>
+                <li class="cs-nav-li"><a class="cs-nav-link" href="#about">About</a></li>
+                <li class="cs-nav-li"><a class="cs-nav-link" href="#services">Services</a></li>
+                <li class="cs-nav-li"><a class="cs-nav-link" href="#reviews">Reviews</a></li>
+                <li class="cs-nav-li"><a class="cs-nav-link" href="#service-area">Service Area</a></li>
+                <li class="cs-nav-li"><a class="cs-nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="cs-nav-group">
+            <span class="cs-header">Services</span>
+            <ul class="cs-nav">
+                <li class="cs-nav-li"><a class="cs-nav-link" href="#contact">Interior Painting</a></li>
+                <li class="cs-nav-li"><a class="cs-nav-link" href="#contact">Exterior Painting</a></li>
+                <li class="cs-nav-li"><a class="cs-nav-link" href="#contact">Wallpapering</a></li>
+                <li class="cs-nav-li"><a class="cs-nav-link" href="#contact">Plaster Prep &amp; Repair</a></li>
+                <li class="cs-nav-li"><a class="cs-nav-link" href="#contact">Woodwork &amp; Trim</a></li>
+                <li class="cs-nav-li"><a class="cs-nav-link" href="#contact">Commercial Decorating</a></li>
+            </ul>
+        </div>
+
+        <div class="cs-map-group" id="service-area">
+            <span class="cs-header">Our Service Area</span>
+            <div class="cs-map-wrap">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d38936.1!2d-0.6436!3d52.9113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4878170f0aef94c5%3A0x6df634e9e7e0d4b4!2sGrantham!5e0!3m2!1sen!2suk!4v1700000000000"
+                    width="100%" height="220" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Grantham service area map">
+                </iframe>
+            </div>
+        </div>
+
+    </div>
+</footer>
+
+<script>
+(function() {
+    const cardGroup = document.querySelector('#services-468 .cs-card-group');
+    const dots = document.querySelectorAll('#services-468 .cs-dot');
+    if (!cardGroup || !dots.length) return;
+    cardGroup.addEventListener('scroll', function() {
+        const scrollLeft = cardGroup.scrollLeft;
+        const maxScroll = cardGroup.scrollWidth - cardGroup.clientWidth;
+        const index = Math.round((scrollLeft / maxScroll) * (dots.length - 1));
+        dots.forEach((d, i) => d.classList.toggle('cs-dot-active', i === index));
+    });
+})();
+</script>
+<script src="js/nav.js"></script>
+<script>
+(function() {
+    const carousel = document.getElementById('cs-carousel');
+    if (!carousel) return;
+    const cards = carousel.querySelectorAll('.cs-review-card');
+    let current = 0;
+
+    function getVisible() {
+        const w = window.innerWidth;
+        if (w >= 1024) return 3;
+        if (w >= 768) return 2;
+        return 1;
+    }
+
+    function update() {
+        const visible = getVisible();
+        const wrap = carousel.parentElement;
+        const gap = 24;
+        const singleWidth = (wrap.offsetWidth - gap * (visible - 1)) / visible;
+
+        cards.forEach(c => { c.style.minWidth = singleWidth + 'px'; });
+
+        const max = cards.length - visible;
+        current = Math.min(current, max);
+        carousel.style.transform = `translateX(-${current * (singleWidth + gap)}px)`;
+
+        const midIndex = current + Math.floor(visible / 2);
+        cards.forEach((c, i) => c.classList.toggle('cs-active', i === midIndex));
+    }
+
+    document.getElementById('cs-prev').addEventListener('click', () => { current = Math.max(0, current - 1); update(); });
+    document.getElementById('cs-next').addEventListener('click', () => { current = Math.min(cards.length - getVisible(), current + 1); update(); });
+    window.addEventListener('resize', update);
+    update();
+})();
+</script>
+<script>
+    // Before & After sliders
+    document.querySelectorAll('.ba-item').forEach(item => {
+        const after = item.querySelector('.ba-after');
+        const divider = item.querySelector('.ba-divider');
+        const handle = item.querySelector('.ba-handle');
+        let dragging = false;
+
+        function setPosition(x) {
+            const rect = item.getBoundingClientRect();
+            let pct = ((x - rect.left) / rect.width) * 100;
+            pct = Math.min(Math.max(pct, 2), 98);
+            after.style.clipPath = `inset(0 ${100 - pct}% 0 0)`;
+            divider.style.left = pct + '%';
+            handle.style.left = pct + '%';
+        }
+
+        item.addEventListener('mousedown', e => { dragging = true; setPosition(e.clientX); });
+        window.addEventListener('mousemove', e => { if (dragging) setPosition(e.clientX); });
+        window.addEventListener('mouseup', () => { dragging = false; });
+
+        item.addEventListener('touchstart', e => { dragging = true; setPosition(e.touches[0].clientX); }, { passive: true });
+        window.addEventListener('touchmove', e => { if (dragging) setPosition(e.touches[0].clientX); }, { passive: true });
+        window.addEventListener('touchend', () => { dragging = false; });
+    });
+
+    lucide.createIcons();
+    document.querySelectorAll('.cs-faq-button').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const answer = btn.nextElementSibling;
+            const isOpen = btn.classList.contains('cs-open');
+            document.querySelectorAll('.cs-faq-button').forEach(b => {
+                b.classList.remove('cs-open');
+                b.setAttribute('aria-expanded', 'false');
+                b.nextElementSibling.classList.remove('cs-open');
+            });
+            if (!isOpen) {
+                btn.classList.add('cs-open');
+                btn.setAttribute('aria-expanded', 'true');
+                answer.classList.add('cs-open');
+            }
+        });
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c ' *)",
+      "Bash(sips -g pixelWidth -g pixelHeight \"/Volumes/widi-ssd/Workspaces/CodeIn/Site Templates/Nivaya/upload-themeforest/Nivaya - Main Files/nivaya/images/logo.png\")",
+      "Bash(sips -g pixelWidth -g pixelHeight \"/Volumes/widi-ssd/Workspaces/CodeIn/Site Templates/Nivaya/saved/home/home_files/Nivaya-Logo-1.png\")",
+      "Bash(sips --cropToHeightWidth 400 400 --cropOffset 0 0 '/Volumes/widi-ssd/Workspaces/CodeIn/Site Templates/Nivaya/upload-themeforest/Nivaya - Main Files/nivaya/images/logo.png' --out '/Volumes/widi-ssd/Workspaces/CodeIn/Site Templates/Nivaya/upload-themeforest/Nivaya - Main Files/nivaya/images/favicon.png')",
+      "Bash(python3 -c \"from PIL import Image; print\\('PIL available'\\)\")",
+      "Bash(convert --version)"
+    ]
+  }
+}

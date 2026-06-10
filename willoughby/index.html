@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Willoughby Windows &amp; Gutters</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/services.css">
+    <link rel="stylesheet" href="css/sidebyside.css">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <link rel="stylesheet" href="css/servicescards.css">
+    <link rel="stylesheet" href="css/faq.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+
+<!-- ============================================ -->
+<!--                 Navigation                   -->
+<!-- ============================================ -->
+
+<header id="cs-navigation">
+    <div class="cs-container">
+        <a href="/" class="cs-logo" aria-label="ClearView Home">
+            <img src="images/window-cleaning-logo.svg" alt="Window Cleaning" width="340" height="65" decoding="async">
+        </a>
+
+        <nav class="cs-nav" aria-label="main navigation">
+            <button class="cs-toggle" aria-label="mobile menu toggle" aria-expanded="false" aria-controls="cs-ul-wrapper" aria-haspopup="menu">
+                <span class="cs-box" aria-hidden="true">
+                    <span class="cs-line cs-line1"></span>
+                    <span class="cs-line cs-line2"></span>
+                    <span class="cs-line cs-line3"></span>
+                </span>
+            </button>
+            <div class="cs-ul-wrapper" id="cs-ul-wrapper">
+                <ul class="cs-ul">
+                    <li class="cs-li"><a href="/" class="cs-li-link cs-active">Home</a></li>
+                    <li class="cs-li"><a href="#about" class="cs-li-link">About</a></li>
+                    <li class="cs-li"><a href="#services" class="cs-li-link">Services</a></li>
+                    <li class="cs-li"><a href="#gallery" class="cs-li-link">Gallery</a></li>
+                    <li class="cs-li"><a href="#service-area" class="cs-li-link">Service Area</a></li>
+                    <li class="cs-li"><a href="#contact" class="cs-li-link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="cs-contact-group">
+            <a href="tel:07518361492" class="cs-phone">
+                <img class="cs-phone-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/phone-1a.svg" alt="" width="24" height="24" aria-hidden="true" decoding="async">
+                07518 361492
+            </a>
+        </div>
+    </div>
+</header>
+
+<!-- ============================================ -->
+<!--                    Hero                      -->
+<!-- ============================================ -->
+
+<section id="hero-wc">
+    <div class="cs-container">
+        <!-- Left: Content -->
+        <div class="cs-content">
+            <span class="cs-topper">Willoughby Windows &amp; Gutter Cleaning</span>
+            <h1 class="cs-title">Crystal Clear Windows, <span>Every Time.</span></h1>
+            <p class="cs-text">
+                Fully insured, local window cleaners serving homes and businesses across Lincolnshire. Streak-free results guaranteed — or we come back for free.
+            </p>
+            <a href="#contact" class="cs-hero-button">Get a Fast Quote</a>
+        </div>
+
+        <!-- Right: Quote Form -->
+        <div class="cs-form-card">
+            <h2 class="cs-form-title">Get Your Free Quote</h2>
+            <p class="cs-form-subtitle">We'll get back to you within the hour</p>
+            <form class="cs-form" name="Quote Form" method="post" action="#">
+                <label class="cs-label">
+                    Your Name
+                    <input class="cs-input" type="text" name="name" placeholder="John Smith" required>
+                </label>
+                <label class="cs-label">
+                    Phone Number
+                    <input class="cs-input" type="tel" name="phone" placeholder="07123 456 789" required>
+                </label>
+                <label class="cs-label">
+                    Email Address
+                    <input class="cs-input" type="email" name="email" placeholder="john@example.com" required>
+                </label>
+                <label class="cs-label">
+                    Service Required
+                    <select class="cs-input cs-select" name="service">
+                        <option value="">Select a service...</option>
+                        <option>Residential Window Cleaning</option>
+                        <option>Commercial Window Cleaning</option>
+                        <option>Conservatory Cleaning</option>
+                        <option>Gutter Cleaning</option>
+                        <option>Solar Panel Cleaning</option>
+                        <option>Fascia & Soffit Cleaning</option>
+                    </select>
+                </label>
+                <button class="cs-button-solid" type="submit">Get My Free Quote</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Background Image + Overlay -->
+    <div class="cs-background" aria-hidden="true">
+        <img src="images/heroimage.jpg" alt="Window cleaner at work">
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--                  Services                    -->
+<!-- ============================================ -->
+
+<section id="services-468">
+    <div class="cs-container">
+        <div class="cs-panel">
+            <ul class="cs-card-group">
+                <li class="cs-item">
+                    <img class="cs-icon" aria-hidden="true" src="images/icons/icon1.svg" loading="lazy" decoding="async" alt="icon" width="90" height="90">
+                    <h3 class="cs-h3">Residential Window Cleaning</h3>
+                </li>
+                <li class="cs-item">
+                    <img class="cs-icon" aria-hidden="true" src="images/icons/icon2.svg" loading="lazy" decoding="async" alt="icon" width="90" height="90">
+                    <h3 class="cs-h3">Commercial Window Cleaning</h3>
+                </li>
+                <li class="cs-item cs-active">
+                    <img class="cs-icon" aria-hidden="true" src="images/icons/icon3.svg" loading="lazy" decoding="async" alt="icon" width="90" height="90">
+                    <h3 class="cs-h3">Solar Panel Cleaning</h3>
+                </li>
+                <li class="cs-item">
+                    <img class="cs-icon" aria-hidden="true" src="images/icons/icon4.svg" loading="lazy" decoding="async" alt="icon" width="90" height="90">
+                    <h3 class="cs-h3">Gutter Cleaning</h3>
+                </li>
+                <li class="cs-item">
+                    <img class="cs-icon" aria-hidden="true" src="images/icons/icon5.svg" loading="lazy" decoding="async" alt="icon" width="90" height="90">
+                    <h3 class="cs-h3">Conservatory Cleaning</h3>
+                </li>
+            </ul>
+            <a href="#contact" class="cs-banner">
+                <span class="cs-banner-text">Our Popular Cleaning Services</span>
+                <span class="cs-banner-arrow" aria-hidden="true">&rarr;</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--                Side By Side                  -->
+<!-- ============================================ -->
+
+<section id="sbs-2291">
+    <div class="cs-container">
+        <!-- Left Image Section -->
+        <div class="cs-image-group">
+            <picture class="cs-picture">
+                <source media="(max-width: 600px)" srcset="images/willoughbyimage1.jpg">
+                <source media="(min-width: 601px)" srcset="images/willoughbyimage1.jpg">
+                <img loading="lazy" decoding="async" src="images/willoughbyimage1.jpg" alt="Window cleaning team" width="630" height="630">
+            </picture>
+        </div>
+        <!-- Right Content Section -->
+        <div class="cs-content">
+            <span class="cs-topper">Professional Window Cleaning in Lincolnshire</span>
+            <h2 class="cs-title">We're Your Local Experts For Crystal Clear Windows</h2>
+            <p class="cs-text">
+                Whether it's your home or business, our fully insured window cleaning team delivers streak-free results every time. We use the latest pure water technology to clean your windows safely and effectively — no ladders, no mess, no fuss.
+            </p>
+            <ul class="cs-ul">
+                <li class="cs-li">
+                    <i data-lucide="shield-check" class="cs-li-icon" aria-hidden="true"></i>
+                    Licensed &amp; Fully Insured
+                </li>
+                <li class="cs-li">
+                    <i data-lucide="sparkles" class="cs-li-icon" aria-hidden="true"></i>
+                    Streak-Free Guarantee
+                </li>
+                <li class="cs-li">
+                    <i data-lucide="calendar-check" class="cs-li-icon" aria-hidden="true"></i>
+                    Same-Week Availability
+                </li>
+                <li class="cs-li">
+                    <i data-lucide="award" class="cs-li-icon" aria-hidden="true"></i>
+                    10+ Years Experience
+                </li>
+                <li class="cs-li">
+                    <i data-lucide="star" class="cs-li-icon" aria-hidden="true"></i>
+                    500+ Five Star Reviews
+                </li>
+            </ul>
+            <a class="cs-button-solid" href="#contact">Get a Fast Quote</a>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--               Services Cards                 -->
+<!-- ============================================ -->
+
+<section id="services-cards">
+    <div class="cs-container">
+        <h2 class="cs-title">Our Window Cleaning Services</h2>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <div class="cs-image-wrap">
+                    <img class="cs-img" src="images/residentialcleaning.jpg" alt="Residential Window Cleaning" loading="lazy" decoding="async" width="400" height="260">
+                </div>
+                <div class="cs-content">
+                    <h3 class="cs-h3">Residential Window Cleaning</h3>
+                    <p class="cs-text">Sparkling clean windows for your home, inside and out. We work around you with flexible scheduling and a streak-free guarantee.</p>
+                    <a href="#contact" class="cs-button">Residential Window Cleaning</a>
+                </div>
+            </li>
+            <li class="cs-item">
+                <div class="cs-image-wrap">
+                    <img class="cs-img" src="images/commercialcleaning.jpg" alt="Commercial Window Cleaning" loading="lazy" decoding="async" width="400" height="260">
+                </div>
+                <div class="cs-content">
+                    <h3 class="cs-h3">Commercial Window Cleaning</h3>
+                    <p class="cs-text">Keep your business looking its best with our reliable commercial window cleaning service. Fully insured and available on a regular schedule.</p>
+                    <a href="#contact" class="cs-button">Commercial Window Cleaning</a>
+                </div>
+            </li>
+            <li class="cs-item">
+                <div class="cs-image-wrap">
+                    <img class="cs-img" src="images/solarpanelcleaning.jpg" alt="Solar Panel Cleaning" loading="lazy" decoding="async" width="400" height="260">
+                </div>
+                <div class="cs-content">
+                    <h3 class="cs-h3">Solar Panel Cleaning</h3>
+                    <p class="cs-text">Dirty solar panels lose up to 30% efficiency. Our specialist cleaning service keeps your panels performing at their best all year round.</p>
+                    <a href="#contact" class="cs-button">Solar Panel Cleaning</a>
+                </div>
+            </li>
+            <li class="cs-item">
+                <div class="cs-image-wrap">
+                    <img class="cs-img" src="images/guttercleaningwillougby.jpg" alt="Gutter Cleaning" loading="lazy" decoding="async" width="400" height="260">
+                </div>
+                <div class="cs-content">
+                    <h3 class="cs-h3">Gutter Cleaning</h3>
+                    <p class="cs-text">Blocked gutters cause damage fast. Our gutter cleaning service clears debris and checks for blockages, keeping your property protected all year round.</p>
+                    <a href="#contact" class="cs-button">Gutter Cleaning</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--                    FAQ                       -->
+<!-- ============================================ -->
+
+<section id="faq-section">
+    <div class="cs-container">
+        <h2 class="cs-title">Frequently Asked Window Cleaning Questions</h2>
+        <ul class="cs-faq-group">
+            <li class="cs-faq-item">
+                <button class="cs-faq-button" aria-expanded="false">
+                    <i data-lucide="chevron-down" class="cs-faq-icon" aria-hidden="true"></i>
+                    <span class="cs-faq-question">What Services Do You Offer?</span>
+                </button>
+                <div class="cs-faq-answer">
+                    <p>We offer a full range of exterior cleaning services including residential and commercial window cleaning, solar panel cleaning, gutter cleaning, conservatory cleaning, and fascia &amp; soffit cleaning — all across Lincolnshire.</p>
+                </div>
+            </li>
+            <li class="cs-faq-item">
+                <button class="cs-faq-button" aria-expanded="false">
+                    <i data-lucide="chevron-down" class="cs-faq-icon" aria-hidden="true"></i>
+                    <span class="cs-faq-question">Are You Fully Insured?</span>
+                </button>
+                <div class="cs-faq-answer">
+                    <p>Yes — we are fully insured and carry public liability insurance on every job. You can have complete peace of mind knowing your property is in safe hands.</p>
+                </div>
+            </li>
+            <li class="cs-faq-item">
+                <button class="cs-faq-button" aria-expanded="false">
+                    <i data-lucide="chevron-down" class="cs-faq-icon" aria-hidden="true"></i>
+                    <span class="cs-faq-question">What Is Pure Water Window Cleaning?</span>
+                </button>
+                <div class="cs-faq-answer">
+                    <p>Pure water cleaning uses water purified to 0 parts per million — meaning no minerals, no chemicals. When it dries, it leaves absolutely no residue or streaks, giving you a spotless finish that lasts longer than traditional methods.</p>
+                </div>
+            </li>
+            <li class="cs-faq-item">
+                <button class="cs-faq-button" aria-expanded="false">
+                    <i data-lucide="chevron-down" class="cs-faq-icon" aria-hidden="true"></i>
+                    <span class="cs-faq-question">How Often Should I Have My Windows Cleaned?</span>
+                </button>
+                <div class="cs-faq-answer">
+                    <p>For most homes we recommend a 4–8 week cleaning cycle. Commercial properties typically benefit from more frequent visits. We offer flexible regular schedules to suit your needs and budget.</p>
+                </div>
+            </li>
+            <li class="cs-faq-item">
+                <button class="cs-faq-button" aria-expanded="false">
+                    <i data-lucide="chevron-down" class="cs-faq-icon" aria-hidden="true"></i>
+                    <span class="cs-faq-question">Do You Offer a Streak-Free Guarantee?</span>
+                </button>
+                <div class="cs-faq-answer">
+                    <p>Absolutely. Every clean comes with our streak-free guarantee — if you're not happy with the results, we'll come back and re-clean at no extra charge. Your satisfaction is our priority.</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--                   Footer                     -->
+<!-- ============================================ -->
+
+<footer id="cs-footer-269">
+    <div class="cs-container">
+
+        <!-- Col 1: Logo + contact + CTA -->
+        <div class="cs-logo-group">
+            <a aria-label="go back to home" class="cs-logo" href="/">
+                <img class="cs-logo-img" aria-hidden="true" loading="lazy" decoding="async" src="images/window-cleaning-logo.svg" alt="ClearView Window Cleaning logo" width="200" height="auto">
+            </a>
+            <ul class="cs-contact-details">
+                <li>
+                    <i data-lucide="map-pin" class="cs-detail-icon" aria-hidden="true"></i>
+                    <span>Lincolnshire, UK</span>
+                </li>
+                <li>
+                    <i data-lucide="mail" class="cs-detail-icon" aria-hidden="true"></i>
+                    <a href="mailto:enquiries@willoughbywindowsandgutters.uk">enquiries@willoughbywindowsandgutters.uk</a>
+                </li>
+                <li>
+                    <i data-lucide="phone" class="cs-detail-icon" aria-hidden="true"></i>
+                    <a href="tel:07518361492">07518 361492</a>
+                </li>
+                <li>
+                    <i data-lucide="shield" class="cs-detail-icon" aria-hidden="true"></i>
+                    <a href="#">Privacy Policy</a>
+                </li>
+            </ul>
+            <div class="cs-social-row">
+                <span class="cs-follow-label">Follow Us On:</span>
+                <div class="cs-social">
+                    <a class="cs-social-link" aria-label="Facebook" href="">
+                        <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Social/Facebook.svg" alt="facebook" width="6" height="11">
+                    </a>
+                    <a class="cs-social-link" aria-label="Instagram" href="">
+                        <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Social/instagram.svg" alt="instagram" width="11" height="11">
+                    </a>
+                </div>
+            </div>
+            <a href="#contact" class="cs-cta-button">Get a Fast Quote</a>
+        </div>
+
+        <!-- Col 2: Quicklinks -->
+        <div class="cs-nav-group">
+            <span class="cs-header">Quicklinks</span>
+            <ul class="cs-nav">
+                <li class="cs-nav-li"><a class="cs-nav-link" href="/">Home</a></li>
+                <li class="cs-nav-li"><a class="cs-nav-link" href="#about">About</a></li>
+                <li class="cs-nav-li"><a class="cs-nav-link" href="#services">Services</a></li>
+                <li class="cs-nav-li"><a class="cs-nav-link" href="#gallery">Gallery</a></li>
+                <li class="cs-nav-li"><a class="cs-nav-link" href="#service-area">Service Area</a></li>
+                <li class="cs-nav-li"><a class="cs-nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- Col 3: Services -->
+        <div class="cs-nav-group">
+            <span class="cs-header">Services</span>
+            <ul class="cs-nav">
+                <li class="cs-nav-li"><a class="cs-nav-link" href="#contact">Residential Window Cleaning</a></li>
+                <li class="cs-nav-li"><a class="cs-nav-link" href="#contact">Commercial Window Cleaning</a></li>
+                <li class="cs-nav-li"><a class="cs-nav-link" href="#contact">Solar Panel Cleaning</a></li>
+                <li class="cs-nav-li"><a class="cs-nav-link" href="#contact">Gutter Cleaning</a></li>
+                <li class="cs-nav-li"><a class="cs-nav-link" href="#contact">Conservatory Cleaning</a></li>
+                <li class="cs-nav-li"><a class="cs-nav-link" href="#contact">Fascia &amp; Soffit Cleaning</a></li>
+            </ul>
+        </div>
+
+        <!-- Col 4: Map -->
+        <div class="cs-map-group">
+            <span class="cs-header">Our Locations</span>
+            <div class="cs-map-wrap">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387559.8359186489!2d-0.5468929!3d53.2348667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4878393fc56ac089%3A0x49bcc0cc4802c77!2sLincolnshire!5e0!3m2!1sen!2suk!4v1700000000000"
+                    width="100%" height="220" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Lincolnshire service area map">
+                </iframe>
+            </div>
+        </div>
+
+    </div>
+</footer>
+
+<script src="js/nav.js"></script>
+<script>
+    lucide.createIcons();
+    document.querySelectorAll('.cs-faq-button').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const answer = btn.nextElementSibling;
+            const isOpen = btn.classList.contains('cs-open');
+            document.querySelectorAll('.cs-faq-button').forEach(b => {
+                b.classList.remove('cs-open');
+                b.setAttribute('aria-expanded', 'false');
+                b.nextElementSibling.classList.remove('cs-open');
+            });
+            if (!isOpen) {
+                btn.classList.add('cs-open');
+                btn.setAttribute('aria-expanded', 'true');
+                answer.classList.add('cs-open');
+            }
+        });
+    });
+</script>
+</body>
+</html>

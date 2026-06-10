@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newark House Maintenance - Home Repairs &amp; Improvements</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/services.css">
+    <link rel="stylesheet" href="css/sidebyside.css">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <link rel="stylesheet" href="css/servicescards.css">
+    <link rel="stylesheet" href="css/faq.css">
+    <link rel="stylesheet" href="css/reviews.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+
+<!-- ============================================ -->
+<!--                 Navigation                   -->
+<!-- ============================================ -->
+
+<header id="cs-navigation">
+    <div class="cs-container">
+        <a href="/" class="cs-logo" aria-label="Newark House Maintenance Home">
+            <img src="images/NEWARKHOUSEMAINTENANCELOGO.jpg" alt="Newark House Maintenance" width="340" height="65" decoding="async">
+        </a>
+
+        <nav class="cs-nav" aria-label="main navigation">
+            <button class="cs-toggle" aria-label="mobile menu toggle" aria-expanded="false" aria-controls="cs-ul-wrapper" aria-haspopup="menu">
+                <span class="cs-box" aria-hidden="true">
+                    <span class="cs-line cs-line1"></span>
+                    <span class="cs-line cs-line2"></span>
+                    <span class="cs-line cs-line3"></span>
+                </span>
+            </button>
+            <div class="cs-ul-wrapper" id="cs-ul-wrapper">
+                <ul class="cs-ul">
+                    <li class="cs-li"><a href="/" class="cs-li-link cs-active">Home</a></li>
+                    <li class="cs-li"><a href="#about" class="cs-li-link">About</a></li>
+                    <li class="cs-li"><a href="#services" class="cs-li-link">Services</a></li>
+                    <li class="cs-li"><a href="#gallery" class="cs-li-link">Gallery</a></li>
+                    <li class="cs-li"><a href="#service-area" class="cs-li-link">Service Area</a></li>
+                    <li class="cs-li"><a href="#contact" class="cs-li-link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="cs-contact-group">
+            <a href="tel:07828667091" class="cs-phone">
+                <img class="cs-phone-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/phone-1a.svg" alt="" width="24" height="24" aria-hidden="true" decoding="async">
+                07828 667091
+            </a>
+        </div>
+    </div>
+</header>
+
+<!-- ============================================ -->
+<!--                    Hero                      -->
+<!-- ============================================ -->
+
+<section id="hero-wc">
+    <div class="cs-container">
+        <!-- Left: Content -->
+        <div class="cs-content">
+            <span class="cs-topper">Newark House Maintenance</span>
+            <h1 class="cs-title">Your Local Handyman, <span>Done Right.</span></h1>
+            <p class="cs-text">
+                Friendly, fully insured home maintenance and repairs across Newark and Nottingham. Call or message Steven for a free quote today.
+            </p>
+            <a href="#contact" class="cs-hero-button">Get a Free Quote</a>
+        </div>
+
+        <!-- Right: Quote Form -->
+        <div class="cs-form-card">
+            <h2 class="cs-form-title">Get Your Free Quote</h2>
+            <p class="cs-form-subtitle">Call or message Steven on 07828 667091</p>
+            <form class="cs-form" name="Quote Form" method="post" action="#">
+                <label class="cs-label">
+                    Your Name
+                    <input class="cs-input" type="text" name="name" placeholder="John Smith" required>
+                </label>
+                <label class="cs-label">
+                    Phone Number
+                    <input class="cs-input" type="tel" name="phone" placeholder="07123 456 789" required>
+                </label>
+                <label class="cs-label">
+                    Email Address
+                    <input class="cs-input" type="email" name="email" placeholder="john@example.com" required>
+                </label>
+                <label class="cs-label">
+                    Service Required
+                    <select class="cs-input cs-select" name="service">
+                        <option value="">Select a service...</option>
+                        <option>Painting &amp; Decorating</option>
+                        <option>Electrical Work</option>
+                        <option>Plumbing Fixture Installation</option>
+                        <option>Gutter Cleaning</option>
+                        <option>Floor Fitting</option>
+                        <option>Flooring Repair</option>
+                        <option>Roof Repair</option>
+                        <option>TV Mounting</option>
+                        <option>Furniture Assembly</option>
+                        <option>Wallpaper Hanging</option>
+                        <option>Door Painting</option>
+                        <option>General Repairs</option>
+                        <option>Other</option>
+                    </select>
+                </label>
+                <button class="cs-button-solid" type="submit">Get My Free Quote</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Background Image + Overlay -->
+    <div class="cs-background" aria-hidden="true">
+        <img src="images/newarkimage7.jpg" alt="Home maintenance and repairs">
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--                  Services                    -->
+<!-- ============================================ -->
+
+<section id="services-468">
+    <div class="cs-container">
+        <div class="cs-panel">
+            <ul class="cs-card-group">
+                <li class="cs-item">
+                    <img class="cs-icon" aria-hidden="true" src="images/icons/icon1.svg" loading="lazy" decoding="async" alt="icon" width="90" height="90">
+                    <h3 class="cs-h3">Painting &amp; Decorating</h3>
+                </li>
+                <li class="cs-item">
+                    <img class="cs-icon" aria-hidden="true" src="images/icons/icon2.svg" loading="lazy" decoding="async" alt="icon" width="90" height="90">
+                    <h3 class="cs-h3">Electrical Work</h3>
+                </li>
+                <li class="cs-item cs-active">
+                    <img class="cs-icon" aria-hidden="true" src="images/icons/icon3.svg" loading="lazy" decoding="async" alt="icon" width="90" height="90">
+                    <h3 class="cs-h3">General Repairs</h3>
+                </li>
+                <li class="cs-item">
+                    <img class="cs-icon" aria-hidden="true" src="images/icons/icon4.svg" loading="lazy" decoding="async" alt="icon" width="90" height="90">
+                    <h3 class="cs-h3">Floor Fitting</h3>
+                </li>
+                <li class="cs-item">
+                    <img class="cs-icon" aria-hidden="true" src="images/icons/icon5.svg" loading="lazy" decoding="async" alt="icon" width="90" height="90">
+                    <h3 class="cs-h3">Plumbing &amp; Gutter Cleaning</h3>
+                </li>
+            </ul>
+            <a href="#contact" class="cs-banner">
+                <span class="cs-banner-text">Our Home Maintenance Services</span>
+                <span class="cs-banner-arrow" aria-hidden="true">&rarr;</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--                Side By Side                  -->
+<!-- ============================================ -->
+
+<section id="sbs-2291">
+    <div class="cs-container">
+        <!-- Left Image Section -->
+        <div class="cs-image-group">
+            <picture class="cs-picture">
+                <source media="(max-width: 600px)" srcset="images/newarkimage6.jpg">
+                <source media="(min-width: 601px)" srcset="images/newarkimage6.jpg">
+                <img loading="lazy" decoding="async" src="images/newarkimage6.jpg" alt="Newark House Maintenance" width="630" height="630">
+            </picture>
+        </div>
+        <!-- Right Content Section -->
+        <div class="cs-content">
+            <span class="cs-topper">Home Maintenance &amp; Repairs in Newark &amp; Nottingham</span>
+            <h2 class="cs-title">Your Friendly Local Handyman</h2>
+            <p class="cs-text">
+                Newark House Maintenance is a friendly, small local business run by Steven. Fully insured and based in Arnold, we carry out all kinds of home maintenance and improvement work across Newark and Nottingham at competitive rates.
+            </p>
+            <ul class="cs-ul">
+                <li class="cs-li">
+                    <i data-lucide="shield-check" class="cs-li-icon" aria-hidden="true"></i>
+                    Fully Insured
+                </li>
+                <li class="cs-li">
+                    <i data-lucide="paintbrush" class="cs-li-icon" aria-hidden="true"></i>
+                    Painting, Decorating &amp; Wallpaper Hanging
+                </li>
+                <li class="cs-li">
+                    <i data-lucide="zap" class="cs-li-icon" aria-hidden="true"></i>
+                    Electrical &amp; Plumbing Work
+                </li>
+                <li class="cs-li">
+                    <i data-lucide="hammer" class="cs-li-icon" aria-hidden="true"></i>
+                    General Repairs &amp; Home Improvements
+                </li>
+                <li class="cs-li">
+                    <i data-lucide="phone" class="cs-li-icon" aria-hidden="true"></i>
+                    Call or Message for a Free Quote
+                </li>
+            </ul>
+            <a class="cs-button-solid" href="#contact">Get a Free Quote</a>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--               Services Cards                 -->
+<!-- ============================================ -->
+
+<section id="services-cards">
+    <div class="cs-container">
+        <h2 class="cs-title">Our Home Maintenance Services</h2>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <div class="cs-image-wrap">
+                    <img class="cs-img" src="images/newarkimage4.jpg" alt="Painting and Decorating" loading="lazy" decoding="async" width="400" height="260">
+                </div>
+                <div class="cs-content">
+                    <h3 class="cs-h3">Painting &amp; Decorating</h3>
+                    <p class="cs-text">Interior and exterior painting, wallpaper hanging, wood painting and door painting. A clean, professional finish every time.</p>
+                    <a href="#contact" class="cs-button">Get a Quote</a>
+                </div>
+            </li>
+            <li class="cs-item">
+                <div class="cs-image-wrap">
+                    <img class="cs-img" src="images/newarkimage3.jpg" alt="Electrical Work" loading="lazy" decoding="async" width="400" height="260">
+                </div>
+                <div class="cs-content">
+                    <h3 class="cs-h3">Electrical Work</h3>
+                    <p class="cs-text">Electrical fixture installation, socket and switch fitting, fuse changing and small electrical work carried out safely and professionally.</p>
+                    <a href="#contact" class="cs-button">Get a Quote</a>
+                </div>
+            </li>
+            <li class="cs-item">
+                <div class="cs-image-wrap">
+                    <img class="cs-img" src="images/newarkimage1.jpg" alt="Floor Fitting" loading="lazy" decoding="async" width="400" height="260">
+                </div>
+                <div class="cs-content">
+                    <h3 class="cs-h3">Floor Fitting &amp; Repair</h3>
+                    <p class="cs-text">Floor fitting and flooring repairs to a high standard. Whether it's a full room or a quick fix, Steven will get it done right.</p>
+                    <a href="#contact" class="cs-button">Get a Quote</a>
+                </div>
+            </li>
+            <li class="cs-item">
+                <div class="cs-image-wrap">
+                    <img class="cs-img" src="images/newarkimage2.jpg" alt="General Repairs" loading="lazy" decoding="async" width="400" height="260">
+                </div>
+                <div class="cs-content">
+                    <h3 class="cs-h3">General Repairs &amp; Maintenance</h3>
+                    <p class="cs-text">From TV mounting and furniture assembly to roof repair, gutter cleaning and plumbing fixtures. No job too small — just call Steven.</p>
+                    <a href="#contact" class="cs-button">Get a Quote</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--                   Reviews                    -->
+<!-- ============================================ -->
+
+<section id="reviews-section">
+    <div class="cs-container">
+        <h2 class="cs-title">What Our Customers Say</h2>
+
+        <div class="cs-carousel-wrap">
+            <div class="cs-carousel" id="cs-carousel">
+
+                <div class="cs-review-card">
+                    <p class="cs-review-text">"Steven did a brilliant job painting our living room and hallway. Really friendly, tidy and great value. Finished on time and left no mess whatsoever. Will definitely be using Newark House Maintenance again!"</p>
+                    <div class="cs-reviewer">
+                        <img class="cs-avatar" src="https://randomuser.me/api/portraits/women/32.jpg" alt="Sarah M." width="48" height="48" loading="lazy" decoding="async">
+                        <div class="cs-reviewer-info">
+                            <div class="cs-stars">
+                                <span class="cs-star">★</span><span class="cs-star">★</span><span class="cs-star">★</span><span class="cs-star">★</span><span class="cs-star">★</span>
+                            </div>
+                            <p class="cs-reviewer-service">Interior Painting</p>
+                            <p class="cs-reviewer-name">Sarah M.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cs-review-card cs-active">
+                    <p class="cs-review-text">"Had Steven out to fit some new electrical sockets and sort a few general repairs around the house. Prompt, professional and very reasonably priced. Couldn't recommend him enough — a genuinely trustworthy tradesman."</p>
+                    <div class="cs-reviewer">
+                        <img class="cs-avatar" src="https://randomuser.me/api/portraits/men/44.jpg" alt="Dave R." width="48" height="48" loading="lazy" decoding="async">
+                        <div class="cs-reviewer-info">
+                            <div class="cs-stars">
+                                <span class="cs-star">★</span><span class="cs-star">★</span><span class="cs-star">★</span><span class="cs-star">★</span><span class="cs-star">★</span>
+                            </div>
+                            <p class="cs-reviewer-service">Electrical Work</p>
+                            <p class="cs-reviewer-name">Dave R.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cs-review-card">
+                    <p class="cs-review-text">"Steven fitted new flooring throughout our downstairs and the finish is immaculate. He was punctual, polite and took real pride in his work. Excellent service from start to finish — highly recommended."</p>
+                    <div class="cs-reviewer">
+                        <img class="cs-avatar" src="https://randomuser.me/api/portraits/women/65.jpg" alt="Linda K." width="48" height="48" loading="lazy" decoding="async">
+                        <div class="cs-reviewer-info">
+                            <div class="cs-stars">
+                                <span class="cs-star">★</span><span class="cs-star">★</span><span class="cs-star">★</span><span class="cs-star">★</span><span class="cs-star">★</span>
+                            </div>
+                            <p class="cs-reviewer-service">Floor Fitting</p>
+                            <p class="cs-reviewer-name">Linda K.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cs-review-card">
+                    <p class="cs-review-text">"Called Steven for a few odd jobs — TV mounting, a door that wouldn't close and some guttering. He sorted everything in one visit, was great company and charged a very fair price. Will be my first call for any future jobs!"</p>
+                    <div class="cs-reviewer">
+                        <img class="cs-avatar" src="https://randomuser.me/api/portraits/men/68.jpg" alt="Mark T." width="48" height="48" loading="lazy" decoding="async">
+                        <div class="cs-reviewer-info">
+                            <div class="cs-stars">
+                                <span class="cs-star">★</span><span class="cs-star">★</span><span class="cs-star">★</span><span class="cs-star">★</span><span class="cs-star">★</span>
+                            </div>
+                            <p class="cs-reviewer-service">General Repairs</p>
+                            <p class="cs-reviewer-name">Mark T.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cs-review-card">
+                    <p class="cs-review-text">"Steven hung wallpaper in our bedroom and the result is stunning. He's careful, methodical and clearly very experienced. The whole experience was stress-free and the price was more than fair. Thank you!"</p>
+                    <div class="cs-reviewer">
+                        <img class="cs-avatar" src="https://randomuser.me/api/portraits/women/77.jpg" alt="Julie P." width="48" height="48" loading="lazy" decoding="async">
+                        <div class="cs-reviewer-info">
+                            <div class="cs-stars">
+                                <span class="cs-star">★</span><span class="cs-star">★</span><span class="cs-star">★</span><span class="cs-star">★</span><span class="cs-star">★</span>
+                            </div>
+                            <p class="cs-reviewer-service">Wallpaper Hanging</p>
+                            <p class="cs-reviewer-name">Julie P.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="cs-controls">
+            <div class="cs-arrows">
+                <button class="cs-arrow" id="cs-prev" aria-label="Previous review">&#8249;</button>
+                <button class="cs-arrow" id="cs-next" aria-label="Next review">&#8250;</button>
+            </div>
+            <div class="cs-cta-buttons">
+                <a href="#" class="cs-btn-solid">See More Reviews</a>
+                <a href="#" class="cs-btn-outline">Leave Us A Review</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--                    FAQ                       -->
+<!-- ============================================ -->
+
+<section id="faq-section">
+    <div class="cs-container">
+        <h2 class="cs-title">Frequently Asked Questions</h2>
+        <ul class="cs-faq-group">
+            <li class="cs-faq-item">
+                <button class="cs-faq-button" aria-expanded="false">
+                    <i data-lucide="chevron-down" class="cs-faq-icon" aria-hidden="true"></i>
+                    <span class="cs-faq-question">What Services Do You Offer?</span>
+                </button>
+                <div class="cs-faq-answer">
+                    <p>We offer a wide range of home maintenance and improvement services including painting and decorating, wallpaper hanging, electrical work, floor fitting, flooring repair, plumbing fixture installation, gutter cleaning, roof repair, TV mounting, furniture assembly and general repairs.</p>
+                </div>
+            </li>
+            <li class="cs-faq-item">
+                <button class="cs-faq-button" aria-expanded="false">
+                    <i data-lucide="chevron-down" class="cs-faq-icon" aria-hidden="true"></i>
+                    <span class="cs-faq-question">Are You Fully Insured?</span>
+                </button>
+                <div class="cs-faq-answer">
+                    <p>Yes, Newark House Maintenance is fully insured. You can have complete peace of mind knowing your property is in safe, professional hands on every job.</p>
+                </div>
+            </li>
+            <li class="cs-faq-item">
+                <button class="cs-faq-button" aria-expanded="false">
+                    <i data-lucide="chevron-down" class="cs-faq-icon" aria-hidden="true"></i>
+                    <span class="cs-faq-question">What Areas Do You Cover?</span>
+                </button>
+                <div class="cs-faq-answer">
+                    <p>We are based in Arnold and cover Newark, Nottingham and the surrounding areas. Not sure if we cover your location? Just give Steven a call on 07828 667091 and he'll be happy to help.</p>
+                </div>
+            </li>
+            <li class="cs-faq-item">
+                <button class="cs-faq-button" aria-expanded="false">
+                    <i data-lucide="chevron-down" class="cs-faq-icon" aria-hidden="true"></i>
+                    <span class="cs-faq-question">How Do I Get a Quote?</span>
+                </button>
+                <div class="cs-faq-answer">
+                    <p>Simply call or message Steven directly on 07828 667091 or fill in the quote form on this page. You can also email home.maintenance2026@gmail.com. We'll get back to you promptly with a free, no-obligation quote.</p>
+                </div>
+            </li>
+            <li class="cs-faq-item">
+                <button class="cs-faq-button" aria-expanded="false">
+                    <i data-lucide="chevron-down" class="cs-faq-icon" aria-hidden="true"></i>
+                    <span class="cs-faq-question">Do You Take On Small Jobs?</span>
+                </button>
+                <div class="cs-faq-answer">
+                    <p>Absolutely. No job is too small for Newark House Maintenance. Whether it's assembling furniture, mounting a TV or fixing a door, Steven is happy to help. Just get in touch for a quote.</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--                   Footer                     -->
+<!-- ============================================ -->
+
+<footer id="cs-footer-269">
+    <div class="cs-container">
+
+        <!-- Col 1: Logo + contact + CTA -->
+        <div class="cs-logo-group">
+            <a aria-label="go back to home" class="cs-logo" href="/">
+                <img class="cs-logo-img" aria-hidden="true" loading="lazy" decoding="async" src="images/NEWARKHOUSEMAINTENANCELOGO.jpg" alt="Newark House Maintenance logo" width="200" height="auto">
+            </a>
+            <ul class="cs-contact-details">
+                <li>
+                    <i data-lucide="map-pin" class="cs-detail-icon" aria-hidden="true"></i>
+                    <span>Arnold, Newark &amp; Nottingham</span>
+                </li>
+                <li>
+                    <i data-lucide="phone" class="cs-detail-icon" aria-hidden="true"></i>
+                    <a href="tel:07828667091">07828 667091</a>
+                </li>
+                <li>
+                    <i data-lucide="mail" class="cs-detail-icon" aria-hidden="true"></i>
+                    <a href="mailto:home.maintenance2026@gmail.com">home.maintenance2026@gmail.com</a>
+                </li>
+                <li>
+                    <i data-lucide="shield" class="cs-detail-icon" aria-hidden="true"></i>
+                    <a href="#">Privacy Policy</a>
+                </li>
+            </ul>
+            <div class="cs-social-row">
+                <span class="cs-follow-label">Follow Us On:</span>
+                <div class="cs-social">
+                    <a class="cs-social-link" aria-label="Facebook" href="">
+                        <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Social/Facebook.svg" alt="facebook" width="6" height="11">
+                    </a>
+                    <a class="cs-social-link" aria-label="Instagram" href="">
+                        <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Social/instagram.svg" alt="instagram" width="11" height="11">
+                    </a>
+                </div>
+            </div>
+            <a href="#contact" class="cs-cta-button">Get a Free Quote</a>
+        </div>
+
+        <!-- Col 2: Quicklinks -->
+        <div class="cs-nav-group">
+            <span class="cs-header">Quicklinks</span>
+            <ul class="cs-nav">
+                <li class="cs-nav-li"><a class="cs-nav-link" href="/">Home</a></li>
+                <li class="cs-nav-li"><a class="cs-nav-link" href="#about">About</a></li>
+                <li class="cs-nav-li"><a class="cs-nav-link" href="#services">Services</a></li>
+                <li class="cs-nav-li"><a class="cs-nav-link" href="#gallery">Gallery</a></li>
+                <li class="cs-nav-li"><a class="cs-nav-link" href="#service-area">Service Area</a></li>
+                <li class="cs-nav-li"><a class="cs-nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- Col 3: Services -->
+        <div class="cs-nav-group">
+            <span class="cs-header">Services</span>
+            <ul class="cs-nav">
+                <li class="cs-nav-li"><a class="cs-nav-link" href="#contact">Painting &amp; Decorating</a></li>
+                <li class="cs-nav-li"><a class="cs-nav-link" href="#contact">Electrical Work</a></li>
+                <li class="cs-nav-li"><a class="cs-nav-link" href="#contact">Floor Fitting</a></li>
+                <li class="cs-nav-li"><a class="cs-nav-link" href="#contact">Gutter Cleaning</a></li>
+                <li class="cs-nav-li"><a class="cs-nav-link" href="#contact">Roof Repair</a></li>
+                <li class="cs-nav-li"><a class="cs-nav-link" href="#contact">TV Mounting</a></li>
+                <li class="cs-nav-li"><a class="cs-nav-link" href="#contact">General Repairs</a></li>
+            </ul>
+        </div>
+
+        <!-- Col 4: Map -->
+        <div class="cs-map-group">
+            <span class="cs-header">Our Locations</span>
+            <div class="cs-map-wrap">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d95901.13177692684!2d-1.1581!3d53.0122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4879c1b8f67fd3b5%3A0x5e6e8e4e6b1a2c3d!2sArnold%2C%20Nottingham!5e0!3m2!1sen!2suk!4v1700000000000"
+                    width="100%" height="220" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Newark House Maintenance service area map">
+                </iframe>
+            </div>
+        </div>
+
+    </div>
+</footer>
+
+<script src="js/nav.js"></script>
+<script>
+(function() {
+    const carousel = document.getElementById('cs-carousel');
+    if (!carousel) return;
+    const cards = carousel.querySelectorAll('.cs-review-card');
+    let current = 0;
+
+    function getVisible() {
+        const w = window.innerWidth;
+        if (w >= 1024) return 3;
+        if (w >= 768) return 2;
+        return 1;
+    }
+
+    function update() {
+        const visible = getVisible();
+        const wrap = carousel.parentElement;
+        const gap = 24;
+        const singleWidth = (wrap.offsetWidth - gap * (visible - 1)) / visible;
+        cards.forEach(c => { c.style.minWidth = singleWidth + 'px'; });
+        const max = cards.length - visible;
+        current = Math.min(current, max);
+        carousel.style.transform = `translateX(-${current * (singleWidth + gap)}px)`;
+        const midIndex = current + Math.floor(visible / 2);
+        cards.forEach((c, i) => c.classList.toggle('cs-active', i === midIndex));
+    }
+
+    document.getElementById('cs-prev').addEventListener('click', () => { current = Math.max(0, current - 1); update(); });
+    document.getElementById('cs-next').addEventListener('click', () => { current = Math.min(cards.length - getVisible(), current + 1); update(); });
+    window.addEventListener('resize', update);
+    update();
+})();
+</script>
+<script>
+    lucide.createIcons();
+    document.querySelectorAll('.cs-faq-button').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const answer = btn.nextElementSibling;
+            const isOpen = btn.classList.contains('cs-open');
+            document.querySelectorAll('.cs-faq-button').forEach(b => {
+                b.classList.remove('cs-open');
+                b.setAttribute('aria-expanded', 'false');
+                b.nextElementSibling.classList.remove('cs-open');
+            });
+            if (!isOpen) {
+                btn.classList.add('cs-open');
+                btn.setAttribute('aria-expanded', 'true');
+                answer.classList.add('cs-open');
+            }
+        });
+    });
+</script>
+</body>
+</html>

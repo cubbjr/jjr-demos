@@ -1,0 +1,147 @@
+/*-- -------------------------- -->
+<---        Service Area         -->
+<--- -------------------------- -*/
+
+@media only screen and (min-width: 0rem) {
+    #service-area-section {
+        padding: 0;
+        background-color: #171e26;
+        overflow: hidden;
+    }
+
+    #service-area-section .sa-wrapper {
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Map */
+    #service-area-section .sa-map {
+        width: 100%;
+        height: 20rem;
+        position: relative;
+        flex-shrink: 0;
+    }
+
+    #service-area-section .sa-map iframe {
+        width: 100%;
+        height: 100%;
+        border: 0;
+        display: block;
+        filter: grayscale(1) invert(0.9) contrast(0.85);
+    }
+
+    /* Content */
+    #service-area-section .sa-content {
+        width: 100%;
+        box-sizing: border-box;
+        padding: clamp(2.5rem, 6vw, 4rem) clamp(1.5rem, 5vw, 4rem);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1.75rem;
+    }
+
+    #service-area-section .sa-topper {
+        font-family: 'Outfit', sans-serif;
+        font-size: var(--topperFontSize);
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        color: var(--primary);
+        display: block;
+    }
+
+    #service-area-section .sa-title {
+        font-family: 'Outfit', sans-serif;
+        font-size: clamp(1.5rem, 3.5vw, 2.5rem);
+        font-weight: 900;
+        text-transform: uppercase;
+        line-height: 1.15em;
+        color: #fff;
+        margin: 0;
+    }
+
+    #service-area-section .sa-title span {
+        color: var(--primary);
+    }
+
+    #service-area-section .sa-text {
+        font-size: 1rem;
+        line-height: 1.6em;
+        color: rgba(255,255,255,0.65);
+        margin: 0;
+        max-width: 36rem;
+    }
+
+    /* Towns grid */
+    #service-area-section .sa-towns {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem 1.5rem;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    #service-area-section .sa-town {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-family: 'Outfit', sans-serif;
+        font-size: 0.9375rem;
+        font-weight: 600;
+        color: rgba(255,255,255,0.85);
+    }
+
+    #service-area-section .sa-town-icon {
+        width: 1rem;
+        height: 1rem;
+        color: var(--primary);
+        flex-shrink: 0;
+        stroke: var(--primary);
+    }
+
+    #service-area-section .sa-cta {
+        font-family: 'Outfit', sans-serif;
+        font-size: 1rem;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        text-decoration: none;
+        padding: 0.875rem 2.5rem;
+        background-color: var(--primary);
+        color: #fff;
+        border-radius: 0.375rem;
+        display: inline-block;
+        align-self: flex-start;
+        transition: background-color 0.3s;
+    }
+
+    #service-area-section .sa-cta:hover {
+        background-color: var(--primaryDark);
+    }
+}
+
+/* Desktop - split 50/50 side by side */
+@media only screen and (min-width: 64rem) {
+    #service-area-section .sa-wrapper {
+        flex-direction: row;
+        min-height: 36rem;
+    }
+
+    #service-area-section .sa-map {
+        width: 50%;
+        height: auto;
+        min-height: 36rem;
+    }
+
+    #service-area-section .sa-content {
+        width: 50%;
+    }
+
+    #service-area-section .sa-towns {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

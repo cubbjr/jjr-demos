@@ -1,0 +1,45 @@
+/*--------------------------------------------------------------
+>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+01. Color Variable
+02. Typography
+03. Spacing
+04. General
+05. Header
+06. Footer
+07. preloader
+08. Video Modal
+09. Slider
+10. About
+11. Accordian
+12. Hero
+13. Cards
+14. CTA Component
+15. Contact
+16. Iconbox
+17. Posts and Post Details
+18. Pricing
+19. Team and Team Details
+20. Testimonials
+--------------------------------------------------------------*/
+
+@import 'default/variable';
+@import 'default/typhography';
+@import 'common/spacing';
+@import 'common/general';
+@import 'common/header';
+@import 'common/footer';
+@import 'common/preloader';
+@import 'common/video-modal';
+@import 'common/slider';
+@import 'shortcode/about';
+@import 'shortcode/accordian';
+@import 'shortcode/hero';
+@import 'shortcode/cards';
+@import 'shortcode/cta';
+@import 'shortcode/contact';
+@import 'shortcode/iconbox';
+@import 'shortcode/post';
+@import 'shortcode/pricing';
+@import 'shortcode/team';
+@import 'shortcode/testimonial';

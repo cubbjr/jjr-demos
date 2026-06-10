@@ -1,0 +1,137 @@
+/*-- -------------------------- -->
+<---         Quote Bar          -->
+<--- -------------------------- -*/
+
+/* Hidden on mobile always */
+@media only screen and (max-width: 767px) {
+    #quote-bar {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #quote-bar {
+        width: 100%;
+        background-color: #1a1a1a;
+        border-bottom: 3px solid var(--primary);
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 10001;
+        box-shadow: 0 2px 12px rgba(0,0,0,0.3);
+        /* Hidden by default — slides in on scroll */
+        transform: translateY(-110%);
+        transition: transform 0.35s ease;
+    }
+
+    /* Visible state — toggled by JS */
+    #quote-bar.qb-visible {
+        transform: translateY(0);
+    }
+
+    #quote-bar .qb-container {
+        width: 100%;
+        max-width: 90rem;
+        margin: auto;
+        padding: 0.6rem 1.5rem;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    /* Left label */
+    #quote-bar .qb-label {
+        flex-shrink: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 0.1rem;
+    }
+
+    #quote-bar .qb-label-title {
+        font-family: 'Outfit', sans-serif;
+        font-size: 1rem;
+        font-weight: 900;
+        text-transform: uppercase;
+        color: #fff;
+        line-height: 1.2;
+        white-space: nowrap;
+    }
+
+    #quote-bar .qb-label-sub {
+        font-family: 'Outfit', sans-serif;
+        font-size: 0.75rem;
+        font-weight: 400;
+        color: rgba(255,255,255,0.55);
+        white-space: nowrap;
+    }
+
+    /* Form */
+    #quote-bar .qb-form {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        flex: 1;
+    }
+
+    #quote-bar .qb-input,
+    #quote-bar .qb-select {
+        font-family: 'Outfit', sans-serif;
+        font-size: 0.875rem;
+        color: #fff;
+        background-color: rgba(255,255,255,0.08);
+        border: 1.5px solid rgba(255,255,255,0.15);
+        border-radius: 0.375rem;
+        padding: 0.5rem 0.75rem;
+        outline: none;
+        flex: 1;
+        min-width: 0;
+        transition: border-color 0.2s, background-color 0.2s;
+    }
+
+    #quote-bar .qb-input::placeholder {
+        color: rgba(255,255,255,0.4);
+    }
+
+    #quote-bar .qb-select {
+        appearance: none;
+        -webkit-appearance: none;
+        cursor: pointer;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='rgba(255,255,255,0.4)' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        background-position: right 0.75rem center;
+        padding-right: 2rem;
+    }
+
+    #quote-bar .qb-select option {
+        background-color: #1a1a1a;
+        color: #fff;
+    }
+
+    #quote-bar .qb-input:focus,
+    #quote-bar .qb-select:focus {
+        border-color: var(--primary);
+        background-color: rgba(255,255,255,0.12);
+    }
+
+    #quote-bar .qb-btn {
+        font-family: 'Outfit', sans-serif;
+        font-size: 0.875rem;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        text-decoration: none;
+        white-space: nowrap;
+        flex-shrink: 0;
+        padding: 0.55rem 1.5rem;
+        background-color: var(--primary);
+        color: #fff;
+        border: none;
+        border-radius: 0.375rem;
+        cursor: pointer;
+        transition: background-color 0.2s;
+    }
+
+    #quote-bar .qb-btn:hover {
+        background-color: var(--primaryDark);
+    }
+}

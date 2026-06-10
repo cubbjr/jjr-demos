@@ -1,0 +1,180 @@
+/*==============================================================
+  10. About
+================================================================*/
+.cs_video_block_style_1 {
+  width: 100%;
+  height: 100%;
+  min-height: 520px;
+
+  @media (max-width:991px) {
+    min-height: 350px;
+  }
+}
+
+.cs_funfact_style_1 {
+  .cs_funfact_number {
+    display: flex;
+  }
+
+  .odometer.odometer-auto-theme .odometer-digit .odometer-digit-inner,
+  .odometer.odometer-theme-default .odometer-digit .odometer-digit-inner {
+    left: -1px;
+    right: -1px;
+  }
+}
+
+.cs_funfact_wrapper_style_1 {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  justify-content: space-between;
+  gap: 24px 30px;
+
+  @media (max-width:991px) {
+    grid-template-columns: repeat(2, auto);
+  }
+
+  @media (max-width:450px) {
+    grid-template-columns: repeat(1, auto);
+    justify-content: center;
+  }
+}
+
+
+.cs_about_style_2 {
+  width: min(100%, 1240px);
+  margin: 0 auto;
+
+  .cs_about_content {
+    width: 100%;
+    min-height: 500px;
+    padding-left: 52%;
+
+    >* {
+      position: relative;
+      z-index: 1;
+    }
+  }
+
+  .cs_about_thumbnail {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-right: 51%;
+  }
+
+  .cs_funfact_wrapper_style_1 {
+    padding-left: 12px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 56px 36px;
+  }
+
+  @media (max-width:1199px) {
+    .cs_funfact_wrapper_style_1 {
+      gap: 24px 16px;
+    }
+  }
+
+  @media (max-width:991px) {
+    padding: 0 4px;
+
+    .cs_about_content,
+    .cs_funfact_wrapper_style_1 {
+      padding: 0;
+    }
+
+    .cs_about_thumbnail {
+      position: initial;
+      padding: 0;
+    }
+
+    .cs_funfact_style_1 {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  @media (max-width:380px) {
+    .cs_funfact_wrapper_style_1 {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+}
+
+/*====================================================
+ Service Details Page Styling
+======================================================*/
+.cs_service_details {
+  .cs_service_contact {
+    padding: 24px;
+    border: 1px solid var(--gray-color2);
+
+    .cs_service_price {
+      display: flex;
+      align-items: flex-end;
+    }
+
+    small {
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 1.7em;
+    }
+
+    hr {
+      margin: 20px 0;
+      opacity: 1;
+      border-color: var(--gray-color2);
+    }
+  }
+
+  .cs_service_desc {
+    width: min(100%, 760px);
+
+    h3 {
+      font-size: 20px;
+      font-weight: 600;
+      font-family: var(--primary-font);
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 1.63em;
+      font-family: var(--primary-font);
+      margin-bottom: 32px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .cs_list_style_1 {
+    li {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 20px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  @media (max-width:991px) {
+    .cs_service_desc {
+      width: 100%;
+
+      h3 {
+        margin-bottom: 16px;
+      }
+
+      p {
+        margin-bottom: 24px;
+      }
+    }
+  }
+}

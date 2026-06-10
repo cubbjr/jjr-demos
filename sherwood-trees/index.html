@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sherwood Trees and Gardens - Tree Surgery &amp; Garden Maintenance</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/services.css">
+    <link rel="stylesheet" href="css/sidebyside.css">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <link rel="stylesheet" href="css/servicescards.css">
+    <link rel="stylesheet" href="css/faq.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+
+<!-- ============================================ -->
+<!--                 Navigation                   -->
+<!-- ============================================ -->
+
+<header id="cs-navigation">
+    <div class="cs-container">
+        <a href="/" class="cs-logo" aria-label="Sherwood Trees and Gardens Home">
+            <img src="images/SHERWOODLOGO.SVG.svg" alt="Sherwood Trees and Gardens" width="340" height="65" decoding="async">
+        </a>
+
+        <nav class="cs-nav" aria-label="main navigation">
+            <button class="cs-toggle" aria-label="mobile menu toggle" aria-expanded="false" aria-controls="cs-ul-wrapper" aria-haspopup="menu">
+                <span class="cs-box" aria-hidden="true">
+                    <span class="cs-line cs-line1"></span>
+                    <span class="cs-line cs-line2"></span>
+                    <span class="cs-line cs-line3"></span>
+                </span>
+            </button>
+            <div class="cs-ul-wrapper" id="cs-ul-wrapper">
+                <ul class="cs-ul">
+                    <li class="cs-li"><a href="/" class="cs-li-link cs-active">Home</a></li>
+                    <li class="cs-li"><a href="#about" class="cs-li-link">About</a></li>
+                    <li class="cs-li"><a href="#services" class="cs-li-link">Services</a></li>
+                    <li class="cs-li"><a href="#gallery" class="cs-li-link">Gallery</a></li>
+                    <li class="cs-li"><a href="#service-area" class="cs-li-link">Service Area</a></li>
+                    <li class="cs-li"><a href="#contact" class="cs-li-link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="cs-contact-group">
+            <a href="tel:07950465040" class="cs-phone">
+                <img class="cs-phone-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/phone-1a.svg" alt="" width="24" height="24" aria-hidden="true" decoding="async">
+                07950 465040
+            </a>
+        </div>
+    </div>
+</header>
+
+<!-- ============================================ -->
+<!--                    Hero                      -->
+<!-- ============================================ -->
+
+<section id="hero-wc">
+    <div class="cs-container">
+        <!-- Left: Content -->
+        <div class="cs-content">
+            <span class="cs-topper">Sherwood Trees and Gardens</span>
+            <h1 class="cs-title">Expert Tree Surgery &amp; Garden Maintenance You Can <span>Trust.</span></h1>
+            <p class="cs-text">
+                Top quality tree care and garden maintenance at competitive rates. Fast, friendly and efficient, with customer satisfaction at the heart of everything we do.
+            </p>
+            <a href="#contact" class="cs-hero-button">Get a Free Estimate</a>
+        </div>
+
+        <!-- Right: Quote Form -->
+        <div class="cs-form-card">
+            <h2 class="cs-form-title">Get Your Free Estimate</h2>
+            <p class="cs-form-subtitle">We'll get back to you within the hour</p>
+            <form class="cs-form" name="Quote Form" method="post" action="#">
+                <label class="cs-label">
+                    Your Name
+                    <input class="cs-input" type="text" name="name" placeholder="John Smith" required>
+                </label>
+                <label class="cs-label">
+                    Phone Number
+                    <input class="cs-input" type="tel" name="phone" placeholder="07123 456 789" required>
+                </label>
+                <label class="cs-label">
+                    Email Address
+                    <input class="cs-input" type="email" name="email" placeholder="john@example.com" required>
+                </label>
+                <label class="cs-label">
+                    Service Required
+                    <select class="cs-input cs-select" name="service">
+                        <option value="">Select a service...</option>
+                        <option>Crown Reduction</option>
+                        <option>Crown Thinning</option>
+                        <option>Tree Felling</option>
+                        <option>Tree Pruning</option>
+                        <option>Emergency Tree Surgeon</option>
+                        <option>Hedge Trimming / Removal</option>
+                        <option>Pruning</option>
+                        <option>Emergency Garden Service</option>
+                        <option>Other</option>
+                    </select>
+                </label>
+                <button class="cs-button-solid" type="submit">Get My Free Estimate</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Background Image + Overlay -->
+    <div class="cs-background" aria-hidden="true">
+        <img src="images/sherwoodheroimage.jpg" alt="Tree surgery and garden maintenance">
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--                  Services                    -->
+<!-- ============================================ -->
+
+<section id="services-468">
+    <div class="cs-container">
+        <div class="cs-panel">
+            <ul class="cs-card-group">
+                <li class="cs-item">
+                    <img class="cs-icon" aria-hidden="true" src="images/icons/icon1.svg" loading="lazy" decoding="async" alt="icon" width="90" height="90">
+                    <h3 class="cs-h3">Tree Felling</h3>
+                </li>
+                <li class="cs-item">
+                    <img class="cs-icon" aria-hidden="true" src="images/icons/icon2.svg" loading="lazy" decoding="async" alt="icon" width="90" height="90">
+                    <h3 class="cs-h3">Crown Reduction</h3>
+                </li>
+                <li class="cs-item cs-active">
+                    <img class="cs-icon" aria-hidden="true" src="images/icons/icon3.svg" loading="lazy" decoding="async" alt="icon" width="90" height="90">
+                    <h3 class="cs-h3">Hedge Trimming</h3>
+                </li>
+                <li class="cs-item">
+                    <img class="cs-icon" aria-hidden="true" src="images/icons/icon4.svg" loading="lazy" decoding="async" alt="icon" width="90" height="90">
+                    <h3 class="cs-h3">Tree Pruning</h3>
+                </li>
+                <li class="cs-item">
+                    <img class="cs-icon" aria-hidden="true" src="images/icons/icon5.svg" loading="lazy" decoding="async" alt="icon" width="90" height="90">
+                    <h3 class="cs-h3">24hr Emergency Call-out</h3>
+                </li>
+            </ul>
+            <a href="#contact" class="cs-banner">
+                <span class="cs-banner-text">Our Tree Surgery &amp; Garden Services</span>
+                <span class="cs-banner-arrow" aria-hidden="true">&rarr;</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--                Side By Side                  -->
+<!-- ============================================ -->
+
+<section id="sbs-2291">
+    <div class="cs-container">
+        <!-- Left Image Section -->
+        <div class="cs-image-group">
+            <picture class="cs-picture">
+                <source media="(max-width: 600px)" srcset="images/sherwoodbrandedvan.jpg">
+                <source media="(min-width: 601px)" srcset="images/sherwoodbrandedvan.jpg">
+                <img loading="lazy" decoding="async" src="images/sherwoodbrandedvan.jpg" alt="Sherwood Trees and Gardens team" width="630" height="630">
+            </picture>
+        </div>
+        <!-- Right Content Section -->
+        <div class="cs-content">
+            <span class="cs-topper">Tree Surgery &amp; Garden Maintenance in Nottinghamshire</span>
+            <h2 class="cs-title">Your Local Tree &amp; Garden Specialists</h2>
+            <p class="cs-text">
+                We are a small family run business with over 10 years of experience. We do not finish a job until full satisfaction of the customer. All kinds of tree work and garden work undertaken at competitive rates.
+            </p>
+            <ul class="cs-ul">
+                <li class="cs-li">
+                    <i data-lucide="shield-check" class="cs-li-icon" aria-hidden="true"></i>
+                    NPTC Certified Tree Surgeon
+                </li>
+                <li class="cs-li">
+                    <i data-lucide="tree-pine" class="cs-li-icon" aria-hidden="true"></i>
+                    All Tree &amp; Garden Work Undertaken
+                </li>
+                <li class="cs-li">
+                    <i data-lucide="clock" class="cs-li-icon" aria-hidden="true"></i>
+                    24 Hour Emergency Call-out
+                </li>
+                <li class="cs-li">
+                    <i data-lucide="tag" class="cs-li-icon" aria-hidden="true"></i>
+                    Free Estimates — No Obligation
+                </li>
+                <li class="cs-li">
+                    <i data-lucide="star" class="cs-li-icon" aria-hidden="true"></i>
+                    Trusted on Checkatrade for 2 Years
+                </li>
+            </ul>
+            <a class="cs-button-solid" href="#contact">Get a Free Estimate</a>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--               Services Cards                 -->
+<!-- ============================================ -->
+
+<section id="services-cards">
+    <div class="cs-container">
+        <h2 class="cs-title">Our Tree Surgery &amp; Garden Services</h2>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <div class="cs-image-wrap">
+                    <img class="cs-img" src="images/sherwood2.jpg" alt="Crown Reduction" loading="lazy" decoding="async" width="400" height="260">
+                </div>
+                <div class="cs-content">
+                    <h3 class="cs-h3">Crown Reduction &amp; Thinning</h3>
+                    <p class="cs-text">Safe, precise crown reduction and thinning to improve the shape, health and light of your trees without compromising their structure.</p>
+                    <a href="#contact" class="cs-button">Get a Free Estimate</a>
+                </div>
+            </li>
+            <li class="cs-item">
+                <div class="cs-image-wrap">
+                    <img class="cs-img" src="images/residentialsherwood1.jpg" alt="Tree Felling" loading="lazy" decoding="async" width="400" height="260">
+                </div>
+                <div class="cs-content">
+                    <h3 class="cs-h3">Tree Felling &amp; Removal</h3>
+                    <p class="cs-text">Full tree felling and removal carried out safely and efficiently by our NPTC certified team — leaving your garden clean and clear.</p>
+                    <a href="#contact" class="cs-button">Get a Free Estimate</a>
+                </div>
+            </li>
+            <li class="cs-item">
+                <div class="cs-image-wrap">
+                    <img class="cs-img" src="images/hedgessherwood1.jpg" alt="Hedge Trimming" loading="lazy" decoding="async" width="400" height="260">
+                </div>
+                <div class="cs-content">
+                    <h3 class="cs-h3">Hedge Trimming &amp; Removal</h3>
+                    <p class="cs-text">Neat, accurate hedge trimming and full hedge removal to keep your garden boundaries looking their best all year round.</p>
+                    <a href="#contact" class="cs-button">Get a Free Estimate</a>
+                </div>
+            </li>
+            <li class="cs-item">
+                <div class="cs-image-wrap">
+                    <img class="cs-img" src="images/sherwoodgarden2.jpg" alt="Emergency Tree Surgeon" loading="lazy" decoding="async" width="400" height="260">
+                </div>
+                <div class="cs-content">
+                    <h3 class="cs-h3">Emergency Call-out Service</h3>
+                    <p class="cs-text">Storm damage, fallen trees or dangerous branches? We offer a 24 hour emergency call-out service to deal with urgent tree and garden issues fast.</p>
+                    <a href="#contact" class="cs-button">Call 07950 465040</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--                    FAQ                       -->
+<!-- ============================================ -->
+
+<section id="faq-section">
+    <div class="cs-container">
+        <h2 class="cs-title">Frequently Asked Questions</h2>
+        <ul class="cs-faq-group">
+            <li class="cs-faq-item">
+                <button class="cs-faq-button" aria-expanded="false">
+                    <i data-lucide="chevron-down" class="cs-faq-icon" aria-hidden="true"></i>
+                    <span class="cs-faq-question">What Tree Surgery Services Do You Offer?</span>
+                </button>
+                <div class="cs-faq-answer">
+                    <p>We offer a full range of tree surgery services including crown reduction, crown thinning, tree felling, tree pruning, and emergency tree surgeon call-outs. We also provide garden maintenance services including hedge trimming and removal, pruning, and emergency garden services.</p>
+                </div>
+            </li>
+            <li class="cs-faq-item">
+                <button class="cs-faq-button" aria-expanded="false">
+                    <i data-lucide="chevron-down" class="cs-faq-icon" aria-hidden="true"></i>
+                    <span class="cs-faq-question">Are You NPTC Certified?</span>
+                </button>
+                <div class="cs-faq-answer">
+                    <p>Yes — our tree surgeons hold NPTC certification (CS39) which is the industry standard qualification for tree surgery. This means all work is carried out to the highest professional standards with full safety compliance.</p>
+                </div>
+            </li>
+            <li class="cs-faq-item">
+                <button class="cs-faq-button" aria-expanded="false">
+                    <i data-lucide="chevron-down" class="cs-faq-icon" aria-hidden="true"></i>
+                    <span class="cs-faq-question">Do You Offer Emergency Call-outs?</span>
+                </button>
+                <div class="cs-faq-answer">
+                    <p>Yes — we offer a 24 hour emergency call-out service for both tree surgery and garden emergencies. Whether it's storm damage, a fallen tree or dangerous branches, call us on 07950 465040 and we'll be with you as quickly as possible.</p>
+                </div>
+            </li>
+            <li class="cs-faq-item">
+                <button class="cs-faq-button" aria-expanded="false">
+                    <i data-lucide="chevron-down" class="cs-faq-icon" aria-hidden="true"></i>
+                    <span class="cs-faq-question">Do You Provide Free Estimates?</span>
+                </button>
+                <div class="cs-faq-answer">
+                    <p>Absolutely — all estimates are completely free and come with no obligation whatsoever. Simply give us a call on 07950 465040 or fill in the quote form on this page and we'll get back to you promptly.</p>
+                </div>
+            </li>
+            <li class="cs-faq-item">
+                <button class="cs-faq-button" aria-expanded="false">
+                    <i data-lucide="chevron-down" class="cs-faq-icon" aria-hidden="true"></i>
+                    <span class="cs-faq-question">How Much Experience Do You Have?</span>
+                </button>
+                <div class="cs-faq-answer">
+                    <p>We are a small family run business with over 10 years of experience in tree surgery and garden maintenance. We pride ourselves on not finishing a job until the customer is fully satisfied — and our Checkatrade record reflects that.</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--                   Footer                     -->
+<!-- ============================================ -->
+
+<footer id="cs-footer-269">
+    <div class="cs-container">
+
+        <!-- Col 1: Logo + contact + CTA -->
+        <div class="cs-logo-group">
+            <a aria-label="go back to home" class="cs-logo" href="/">
+                <img class="cs-logo-img" aria-hidden="true" loading="lazy" decoding="async" src="images/SHERWOODLOGO.SVG.svg" alt="Sherwood Trees and Gardens logo" width="200" height="auto">
+            </a>
+            <ul class="cs-contact-details">
+                <li>
+                    <i data-lucide="map-pin" class="cs-detail-icon" aria-hidden="true"></i>
+                    <span>Nottinghamshire</span>
+                </li>
+                <li>
+                    <i data-lucide="phone" class="cs-detail-icon" aria-hidden="true"></i>
+                    <a href="tel:07950465040">07950 465040</a>
+                </li>
+                <li>
+                    <i data-lucide="shield-check" class="cs-detail-icon" aria-hidden="true"></i>
+                    <span>NPTC Certified</span>
+                </li>
+                <li>
+                    <i data-lucide="shield" class="cs-detail-icon" aria-hidden="true"></i>
+                    <a href="#">Privacy Policy</a>
+                </li>
+            </ul>
+            <div class="cs-social-row">
+                <span class="cs-follow-label">Follow Us On:</span>
+                <div class="cs-social">
+                    <a class="cs-social-link" aria-label="Facebook" href="">
+                        <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Social/Facebook.svg" alt="facebook" width="6" height="11">
+                    </a>
+                    <a class="cs-social-link" aria-label="Instagram" href="">
+                        <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Social/instagram.svg" alt="instagram" width="11" height="11">
+                    </a>
+                </div>
+            </div>
+            <a href="#contact" class="cs-cta-button">Get a Free Estimate</a>
+        </div>
+
+        <!-- Col 2: Quicklinks -->
+        <div class="cs-nav-group">
+            <span class="cs-header">Quicklinks</span>
+            <ul class="cs-nav">
+                <li class="cs-nav-li"><a class="cs-nav-link" href="/">Home</a></li>
+                <li class="cs-nav-li"><a class="cs-nav-link" href="#about">About</a></li>
+                <li class="cs-nav-li"><a class="cs-nav-link" href="#services">Services</a></li>
+                <li class="cs-nav-li"><a class="cs-nav-link" href="#gallery">Gallery</a></li>
+                <li class="cs-nav-li"><a class="cs-nav-link" href="#service-area">Service Area</a></li>
+                <li class="cs-nav-li"><a class="cs-nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- Col 3: Services -->
+        <div class="cs-nav-group">
+            <span class="cs-header">Services</span>
+            <ul class="cs-nav">
+                <li class="cs-nav-li"><a class="cs-nav-link" href="#contact">Crown Reduction</a></li>
+                <li class="cs-nav-li"><a class="cs-nav-link" href="#contact">Crown Thinning</a></li>
+                <li class="cs-nav-li"><a class="cs-nav-link" href="#contact">Tree Felling</a></li>
+                <li class="cs-nav-li"><a class="cs-nav-link" href="#contact">Tree Pruning</a></li>
+                <li class="cs-nav-li"><a class="cs-nav-link" href="#contact">Hedge Trimming</a></li>
+                <li class="cs-nav-li"><a class="cs-nav-link" href="#contact">Pruning</a></li>
+                <li class="cs-nav-li"><a class="cs-nav-link" href="#contact">Emergency Call-out</a></li>
+            </ul>
+        </div>
+
+        <!-- Col 4: Map -->
+        <div class="cs-map-group">
+            <span class="cs-header">Our Locations</span>
+            <div class="cs-map-wrap">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193814.4087977696!2d-1.1581!3d53.1!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4879fb6d15bd6f1f%3A0x8b2de3a15e08e5a4!2sNottinghamshire!5e0!3m2!1sen!2suk!4v1700000000000"
+                    width="100%" height="220" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Sherwood Trees and Gardens service area map">
+                </iframe>
+            </div>
+        </div>
+
+    </div>
+</footer>
+
+<script src="js/nav.js"></script>
+<script>
+    lucide.createIcons();
+    document.querySelectorAll('.cs-faq-button').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const answer = btn.nextElementSibling;
+            const isOpen = btn.classList.contains('cs-open');
+            document.querySelectorAll('.cs-faq-button').forEach(b => {
+                b.classList.remove('cs-open');
+                b.setAttribute('aria-expanded', 'false');
+                b.nextElementSibling.classList.remove('cs-open');
+            });
+            if (!isOpen) {
+                btn.classList.add('cs-open');
+                btn.setAttribute('aria-expanded', 'true');
+                answer.classList.add('cs-open');
+            }
+        });
+    });
+</script>
+</body>
+</html>

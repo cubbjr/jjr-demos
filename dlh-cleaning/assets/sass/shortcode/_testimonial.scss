@@ -1,0 +1,79 @@
+/*=============================================================
+ 20. Testimonials
+===============================================================*/
+.cs_testimonial_style_1 {
+  padding: 24px;
+
+  blockquote {
+    padding-bottom: 24px;
+    font-size: 16px;
+    font-style: normal;
+    margin-bottom: 24px;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.10);
+  }
+
+  .cs_avatar_style_1 {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 16px;
+
+    .cs_avatar_icon {
+      width: 60px;
+      height: 60px;
+
+      img {
+        display: block;
+        width: 100%;
+      }
+    }
+  }
+
+  @media (max-width:991px) {
+    padding: 20px 16px;
+  }
+}
+
+.cs_testimonial_style_2 {
+  width: min(100%, 700px);
+
+  blockquote {
+    font-size: 24px;
+    font-style: normal;
+    color: var(--primary-color);
+    font-family: var(--primary-font);
+    margin-bottom: 24px;
+  }
+
+  .cs_avatar_style_1 {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 16px;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.4s ease;
+    transition-delay: 0.4s;
+
+    .cs_avatar_icon {
+      width: 50px;
+      height: 50px;
+
+      img {
+        display: block;
+        width: 100%;
+      }
+    }
+  }
+
+  @media (max-width:991px) {
+    blockquote {
+      font-size: 18px;
+      margin-bottom: 16px;
+    }
+  }
+}

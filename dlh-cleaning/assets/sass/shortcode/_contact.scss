@@ -1,0 +1,128 @@
+/*==============================================================
+  15. Contact
+ ===============================================================*/
+.cs_contact_form_wrapper {
+  padding: 24px;
+  border: 1px solid var(--gray-color2);
+  width: min(100%, 595px);
+  margin-left: auto;
+
+  label {
+    font-weight: 500;
+    color: var(--primary-color);
+    font-family: var(--primary-font);
+    margin-bottom: 8px;
+  }
+
+  .cs_form_field,
+  .tom_select {
+    display: block;
+    width: 100%;
+    padding: 10px 16px;
+    resize: none;
+    outline: 0;
+    border-radius: 8px;
+    border: 1px solid var(--gray-color2);
+
+    &:focus {
+      border-color: var(--dark-blue);
+    }
+  }
+
+  .tom_select {
+    &.focus {
+      border-color: var(--dark-blue);
+
+      .ts-control {
+        &::after {
+          transform: translateY(-50%) rotateX(180deg);
+        }
+      }
+    }
+  }
+
+  .ts-control {
+    padding: 0;
+    border: 0;
+    font-size: 16px;
+    line-height: 1.63em;
+
+    &::after {
+      content: "\f078";
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      pointer-events: none;
+      font-size: 14px;
+      font-family: "Font Awesome 7 Free";
+      font-weight: 900;
+      color: var(--primary-color);
+      transition: all 0.3s ease;
+    }
+
+    input {
+      min-width: 1rem;
+      margin: 0 !important;
+    }
+  }
+
+  .ts-dropdown {
+    border-radius: 8px;
+    border: 1px solid var(--gray-color2);
+
+    .option {
+      font-size: 16px;
+      padding: 8px 16px;
+      line-height: 1.63em;
+
+      &.selected,
+      .active,
+      &:hover {
+        color: var(--white-color);
+        background-color: var(--dark-blue);
+      }
+    }
+  }
+
+  .cs_btn_style_1 {
+    width: 100%;
+  }
+
+  @media (max-width: 991px) {
+    width: 100%;
+    padding: 20px 16px;
+  }
+}
+
+.cs_contact_info_wrapper {
+  padding: 32px;
+  height: 100%;
+  width: min(100%, 595px);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  .cs_contact_info_list {
+    margin-top: auto;
+    margin-bottom: 0;
+    padding: 0;
+
+    li {
+      margin-bottom: 20px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    a:hover {
+      color: var(--dark-blue);
+    }
+  }
+
+  @media (max-width: 991px) {
+    width: 100%;
+    padding: 20px 16px;
+  }
+}

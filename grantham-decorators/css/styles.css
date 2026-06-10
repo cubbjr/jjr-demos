@@ -1,0 +1,86 @@
+:root {
+    --primary: #ff751f;
+    --primaryLight: #ff751f;
+    --primaryDark: #d95e0f;
+    --secondary: #ff751f;
+    --secondaryLight: #ff751f;
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4e4b66;
+    --bodyTextColorWhite: #fafbfc;
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Logo size override */
+#cs-navigation .cs-logo {
+    height: 4rem !important;
+    max-width: 26rem !important;
+}
+
+/* Outfit for nav, Sora for headings */
+#cs-navigation,
+#cs-navigation .cs-logo,
+#cs-navigation .cs-li-link,
+#cs-navigation .cs-phone {
+    font-family: 'Outfit', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .cs-title, .sa-title {
+    font-family: 'Sora', sans-serif;
+}
+
+/* Capitalise nav and h1 */
+#cs-navigation .cs-li-link,
+#cs-navigation .cs-phone,
+h1 {
+    text-transform: uppercase;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 0.25rem;
+    display: block;
+}
+
+.cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: #ffffff;
+    position: relative;
+}
+
+.cs-title span {
+    color: var(--primaryLight);
+}
+
+.cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: rgba(255,255,255,0.85);
+}
